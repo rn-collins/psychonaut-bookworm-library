@@ -1,6 +1,6 @@
 # The Psychonaut Bookworm: Research & Learning Library (open edition)
 
-An independent research and learning library across psychedelic literature. The live site publishes 459 editorial objects drawn from a 1,664-record provenance ledger, each with its source visibility and rights-review state, plus a saved research queue and a correction form.
+An independent research and learning library across psychedelic literature. The live site publishes 460 editorial objects drawn from a 1,664-record provenance ledger, each with its source visibility and rights-review state, plus a saved research queue and a correction form.
 
 **Live site:** https://psychonaut-bookworm.vercel.app
 **Governance and the ledger:** https://psychonaut-bookworm.vercel.app/governance
@@ -10,9 +10,9 @@ It is drafts and study material, not peer-reviewed or licensed work. Every page 
 
 ## What this repository is
 
-This is the open edition of the project. It holds everything needed to rebuild the live site from scratch: the build, the tests, the governance page, and the 459 records that are released.
+This is the open edition of the project. It holds everything needed to rebuild the live site from scratch: the build, the tests, the governance page, and the 460 records that are released.
 
-It does not hold the other 1,205 records. They are withheld on the live site pending source and rights review (five object types are withheld in full pending excerpt-rights review: quote cards, documents of the week, character profiles, passage spotlights and the geography series). A public repository would publish exactly what the site holds back, so those records stay in the private source repository. Here they appear only as counts by reason in `provenance/withheld.json`, with no id, title, excerpt or source. The site you build from this repository is byte-identical to the live one.
+It does not hold the other 1,204 records. They are withheld on the live site pending source and rights review (five object types are withheld in full pending excerpt-rights review: quote cards, documents of the week, character profiles, passage spotlights and the geography series). A public repository would publish exactly what the site holds back, so those records stay in the private source repository. Here they appear only as counts by reason in `provenance/withheld.json`, with no id, title, excerpt or source. The site you build from this repository is byte-identical to the live one.
 
 ## How a record becomes public
 

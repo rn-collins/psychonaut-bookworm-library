@@ -3,6 +3,32 @@
  "corpus": "writing",
  "records": [
   {
+   "recordId": "writing/vocabulary-of-a-new-world",
+   "canonicalWorkId": "vocabulary-of-a-new-world",
+   "duplicateOf": null,
+   "corpus": "writing",
+   "sourceIndex": 0,
+   "title": "The Vocabulary of a New World",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Bisbee, P., Carson Bisbee, C., Dyck, E., Farrell, P., Sexton, J. & Spisak, J.W. (eds.) Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond. McGill-Queen's University Press (2018)",
+    "Smith, G. (ed.) Letters of Aldous Huxley. Chatto & Windus (1969)",
+    "Osmond, H. A Review of the Clinical Effects of Psychotomimetic Agents, Ann. NY Acad. Sci. (1957)",
+    "Huxley, The Doors of Perception (1954)",
+    "New York Academy of Sciences, The Origin of the Term Psychedelic (blog)",
+    "Wikipedia, Humphry Osmond",
+    "Wikipedia, Aldous Huxley",
+    "Wikipedia, The Doors of Perception"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-10-14",
+   "correctionRoute": "/governance"
+  },
+  {
    "recordId": "writing/april-19-1943",
    "canonicalWorkId": "april-19-1943",
    "duplicateOf": null,

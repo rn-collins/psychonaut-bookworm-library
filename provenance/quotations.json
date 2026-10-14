@@ -11,9 +11,12 @@
     "pieces/the-word-that-changed-everything",
     "pieces/passage-moksha-naming",
     "notebookLM/nlm-001",
-    "courseModules/mod-02"
+    "courseModules/mod-02",
+    "pieces/vocabulary-of-a-new-world"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
    "source": {
     "work": "Letter from Aldous Huxley to Humphry Osmond, 30 March 1956 (couplet in the postscript)",
     "author": "Aldous Huxley",
@@ -33,9 +36,12 @@
     "pieces/passage-moksha-naming",
     "pieces/mini-moksha-couplet",
     "notebookLM/nlm-001",
-    "courseModules/mod-02"
+    "courseModules/mod-02",
+    "pieces/vocabulary-of-a-new-world"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
    "source": {
     "work": "Humphry Osmond's rhyming reply to Huxley's 1956 letter, quoted in the editor's note to letter 744",
     "author": "Humphry Osmond (quoted by Grover Smith)",
@@ -599,6 +605,26 @@
     "url": "https://archive.org/download/PopularMechanics1938/Popular_Mechanics_02_1938_djvu.txt"
    },
    "note": "Checked in OCR text, not the page image. OCR garbles 'value' in that line; the quoted phrase itself reads cleanly."
+  },
+  {
+   "id": "q31",
+   "status": "verified",
+   "match": "clear, euphonious and uncontaminated by other associations",
+   "appearsIn": [
+    "pieces/vocabulary-of-a-new-world"
+   ],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
+   "source": {
+    "work": "A Review of the Clinical Effects of Psychotomimetic Agents",
+    "author": "Humphry Osmond",
+    "year": "1957",
+    "edition_or_translation": "Annals of the New York Academy of Sciences 66(3):418-434",
+    "locator": "as quoted by the New York Academy of Sciences, The Origin of the Term Psychedelic; page number not checked",
+    "url": "https://www.nyas.org/ideas-insights/blog/the-origin-of-the-term-psychedelic/"
+   },
+   "note": "Seen through the Academy's blog post, which quotes Osmond; the paper itself was not opened."
   }
  ]
 }

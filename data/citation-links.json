@@ -1933,6 +1933,31 @@
     "year": 2004,
     "title": "Life Cycle Analysis of field production of fibre hemp, the effect of production practices on environmental impacts"
    }
+  },
+  "Bisbee, P., Carson Bisbee, C., Dyck, E., Farrell, P., Sexton, J. & Spisak, J.W. (eds.) Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond. McGill-Queen's University Press (2018)": {
+   "url": "https://doi.org/10.1515/9780773556027",
+   "kind": "doi",
+   "verified": "2026-10-14",
+   "matched": {
+    "year": 2018,
+    "title": "Psychedelic Prophets"
+   }
+  },
+  "New York Academy of Sciences, The Origin of the Term Psychedelic (blog)": {
+   "url": "https://www.nyas.org/ideas-insights/blog/the-origin-of-the-term-psychedelic/",
+   "kind": "url",
+   "verified": "2026-10-14",
+   "matched": {
+    "title": "The Origin of the Term Psychedelic"
+   }
+  },
+  "Wikipedia, Aldous Huxley": {
+   "url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
+   "kind": "url",
+   "verified": "2026-10-14",
+   "matched": {
+    "title": "Aldous Huxley - Wikipedia"
+   }
   }
  }
 }

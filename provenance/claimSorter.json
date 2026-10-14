@@ -1,0 +1,1108 @@
+{
+ "schemaVersion": "1.0.0",
+ "corpus": "claimSorter",
+ "records": [
+  {
+   "recordId": "claimSorter/cs-001",
+   "canonicalWorkId": "cs-001",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 0,
+   "title": "The brain functions primarily as a reducing valve, filtering most of what could be perceived",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley, The Doors of Perception (1954) / Carhart-Harris & Friston (2019)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-002",
+   "canonicalWorkId": "cs-002",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 1,
+   "title": "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Shao et al., Neuron (2021); Zhao et al. (2024); Cell (2025)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-003",
+   "canonicalWorkId": "cs-003",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 2,
+   "title": "The opposite of addiction is connection",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Hari (2015); Gage & Sumnall, Addiction (2020); CDC (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-004",
+   "canonicalWorkId": "cs-004",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 3,
+   "title": "December 21, 2012 would be a singularity of maximum novelty — the Timewave Zero endpoint",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna, True Hallucinations (1993); various commentaries 2012-2013"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-005",
+   "canonicalWorkId": "cs-005",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 4,
+   "title": "The Eleusinian Mysteries used an ergot-based psychedelic sacrament in the kykeon",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Wasson, Hofmann & Ruck (1978); Scientific Reports (2026)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-006",
+   "canonicalWorkId": "cs-006",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 5,
+   "title": "Hemp prohibition in 1937 was orchestrated by DuPont and Hearst to eliminate hemp as competition",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Herer (1985); Campos, Home Grown (2012); WHO ECDD (2019)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-007",
+   "canonicalWorkId": "cs-007",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 6,
+   "title": "Mystical experience quality predicts therapeutic outcomes better than drug dose alone",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Barrett & Griffiths (2018); Gukasyan et al. (2022); Viljoen et al. (2025)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-008",
+   "canonicalWorkId": "cs-008",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 7,
+   "title": "Set and setting (mindset and environment) are primary determinants of psychedelic outcomes",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Borkel et al. (2024); Thal & Lommen (2024); Johnson et al. (2008)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-009",
+   "canonicalWorkId": "cs-009",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 8,
+   "title": "Psilocybin-containing mushrooms catalyzed human cognitive evolution through regular consumption by early hominids",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna (1992); Shao et al. (2021); Wikipedia, Stoned Ape Theory"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-010",
+   "canonicalWorkId": "cs-010",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 9,
+   "title": "Shamans access molecular-level information (specifically DNA) through ayahuasca visions",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Narby (1998); Simard (2021); Gagliano et al. (2014)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-011",
+   "canonicalWorkId": "cs-011",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 10,
+   "title": "The 1968 Schedule I classification of LSD was a scientific judgment based on evidence of harm",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Stevens (1987); WHO ECDD (2019); FDA (2018)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-012",
+   "canonicalWorkId": "cs-012",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 11,
+   "title": "The machine elves McKenna described are consistently encountered by DMT users across cultures",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Sexton et al. (2019); Timmermann et al. (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-013",
+   "canonicalWorkId": "cs-013",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 12,
+   "title": "Cannabis's Schedule I status has no accepted medical use — the scheduling criterion is met",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Herer (1985); WHO ECDD (2019); FDA approvals"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-014",
+   "canonicalWorkId": "cs-014",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 13,
+   "title": "The drug war's racial targeting was incidental — an unintended consequence of neutral enforcement",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Ehrlichman in Baum (2016); ACLU (2020)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-015",
+   "canonicalWorkId": "cs-015",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 14,
+   "title": "Schultes's urgency about ethnopharmacological research was premature — there is still time",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Schultes (1967); INPA (2023); CBD Kunming-Montreal (2022)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-016",
+   "canonicalWorkId": "cs-016",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 15,
+   "title": "Portugal's drug decriminalization model is a straightforward success that any country could replicate",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Hari (2015); EMCDDA (2023); Wikipedia, Oregon Measure 110"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-017",
+   "canonicalWorkId": "cs-017",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 16,
+   "title": "Hofmann's LSD is best understood as a 'sacred drug' rather than a psychiatric tool",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Hofmann (1979); Barrett & Griffiths (2018); COMPASS (2026)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-018",
+   "canonicalWorkId": "cs-018",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 17,
+   "title": "Television is a dominator drug that produces passivity and compliance",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna (1992); Parker interview (2017); Haidt, The Anxious Generation (2024)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-019",
+   "canonicalWorkId": "cs-019",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 18,
+   "title": "Plato's theory of Forms was influenced by his Eleusinian initiation",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Wasson, Hofmann & Ruck (1978); Burkert (1987); Muraresku (2020)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-020",
+   "canonicalWorkId": "cs-020",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 19,
+   "title": "Huxley's mescaline experience was a 'gratuitous grace' — potentially valuable but not necessary for enlightenment",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley (1954); Griffiths et al. (2006); Yaden & Griffiths (2021)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-021",
+   "canonicalWorkId": "cs-021",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 20,
+   "title": "The Eleusinian Mysteries were a theatrical experience — no pharmacological agent was required to produce the described visions",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Burkert (1987); Wasson, Hofmann & Ruck (1978); Juan-Tresserras (2019-2020)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-022",
+   "canonicalWorkId": "cs-022",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 21,
+   "title": "FDA approval of psilocybin-assisted therapy would make it broadly accessible to patients who need it",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "TGA Australia (2023); Australian Healthcare & Hospitals Association (2025)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-023",
+   "canonicalWorkId": "cs-023",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 22,
+   "title": "The psychedelic renaissance represents a genuine cultural shift — an Archaic Revival in McKenna's sense",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna (1992); MAPS Policy Guidebook (2026); Colorado Sun (2025)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-024",
+   "canonicalWorkId": "cs-024",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 23,
+   "title": "Ibogaine is the most promising psychedelic for treating opioid use disorder and PTSD in veterans",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Noller et al. (2018); Kirchner et al. (2023); High Times (April 2026)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-025",
+   "canonicalWorkId": "cs-025",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 24,
+   "title": "The mescaline experience produces genuine mystical states identical to those described by contemplative mystics",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Griffiths et al., Psychopharmacology (2006); Pahnke, International Journal of Parapsychology (1963)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-026",
+   "canonicalWorkId": "cs-026",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 25,
+   "title": "Psychedelic education should be integrated into mainstream curricula — 'consciousness literacy'",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Johns Hopkins Center for Psychedelic and Consciousness Research curriculum (2024)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-027",
+   "canonicalWorkId": "cs-027",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 26,
+   "title": "Art functions as 'ersatz suchness' — a substitute for the direct visionary experience that most people cannot access",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Vessel et al., Frontiers in Human Neuroscience (2012); Yaden et al., Review of General Psychology (2017)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-028",
+   "canonicalWorkId": "cs-028",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 27,
+   "title": "A guided psychedelic session can produce lasting change in personality traits — specifically increases in openness",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "MacLean, Johnson & Griffiths, Psychopharmacology (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-029",
+   "canonicalWorkId": "cs-029",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 28,
+   "title": "The physical setting of a psychedelic session should be aesthetically comfortable and carefully prepared",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Borkel et al., Journal of Psychopharmacology (2024); MAPS MDMA-AT Treatment Manual (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-030",
+   "canonicalWorkId": "cs-030",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 29,
+   "title": "LSD-assisted psychotherapy can achieve lasting sobriety in alcoholism at rates exceeding other available treatments",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Krebs & Johansen, J Psychopharmacology (2012); Bogenschutz et al., JAMA Psychiatry (2022)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-031",
+   "canonicalWorkId": "cs-031",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 30,
+   "title": "LSD is not addictive in the conventional sense — it does not produce physical dependence or compulsive use patterns",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "WHO ECDD Critical Review of LSD (2019); Global Drug Survey (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-032",
+   "canonicalWorkId": "cs-032",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 31,
+   "title": "LSD microdosing (sub-perceptual doses) produces measurable cognitive benefits",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Szigeti et al., eLife (2021); Anderson et al., J Psychopharmacology (2019)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-033",
+   "canonicalWorkId": "cs-033",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 32,
+   "title": "A single psilocybin session can produce lasting reduction in tobacco addiction",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Johnson et al., Drug and Alcohol Dependence (2014); Garcia-Romeu et al., Drug and Alcohol Dependence (2015)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-034",
+   "canonicalWorkId": "cs-034",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 33,
+   "title": "Psilocybin increases nature connectedness and pro-environmental attitudes",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Lyons & Carhart-Harris, Psychopharmacology (2018); Kettner et al., International Journal of Environmental Research (2019)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-035",
+   "canonicalWorkId": "cs-035",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 34,
+   "title": "The human drive to alter consciousness is as fundamental as hunger or sex",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Weil, The Natural Mind (1972); Siegel, Intoxication (1989)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-036",
+   "canonicalWorkId": "cs-036",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 35,
+   "title": "Social media platforms are designed to exploit psychological vulnerabilities in ways that structurally resemble addictive drug use",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Parker interview, Axios (2017); Harris, The Center for Humane Technology; Haidt, The Anxious Generation (2024)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-037",
+   "canonicalWorkId": "cs-037",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 36,
+   "title": "Drug prohibition increases violence by creating black markets with no legal dispute resolution",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Miron, The Budgetary Implications of Drug Prohibition (2004); UNODC World Drug Report (2024)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-038",
+   "canonicalWorkId": "cs-038",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 37,
+   "title": "Drug addiction is primarily a response to trauma, not primarily a pharmacological inevitability",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Felitti et al., American Journal of Preventive Medicine (1998); Robins, Archives of General Psychiatry (1972)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-039",
+   "canonicalWorkId": "cs-039",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 38,
+   "title": "Cannabis legalization does not produce significant increases in youth cannabis use",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Monitoring the Future Survey (2024); SAMHSA NSDUH (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-040",
+   "canonicalWorkId": "cs-040",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 39,
+   "title": "The Eleusinian Mysteries at Eleusis used a pharmacologically active kykeon — some psychoactive preparation",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Egea et al., Antiquity (2020); Antonopoulos & Dadiotis, Scientific Reports (2026)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-041",
+   "canonicalWorkId": "cs-041",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 40,
+   "title": "Classical Greek philosophers including Plato underwent the Eleusinian initiation",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Plato, Phaedo 69c-d; Cicero, De Legibus II.36; Plutarch, On the Cessation of Oracles"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-042",
+   "canonicalWorkId": "cs-042",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 41,
+   "title": "Religious freedom law (RFRA) provides protection for sacramental use of Schedule I substances",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Gonzales v. O Centro Espirita SCOTUS (2006); Chacruna Institute RFRA case compilation (2024)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-043",
+   "canonicalWorkId": "cs-043",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 42,
+   "title": "The 1968 LSD research program had a clinical evidence base sufficient for therapeutic application",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Krebs & Johansen, J Psychopharmacology (2012); Griffiths et al., J Psychopharmacology (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-044",
+   "canonicalWorkId": "cs-044",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 43,
+   "title": "The CIA's MK-Ultra LSD program was counterproductive to its stated goals",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Church Committee Final Report (1976); Kinzer, Poisoner in Chief (2019)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-045",
+   "canonicalWorkId": "cs-045",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 44,
+   "title": "The psychedelic research program, if it had continued without the 1968 scheduling, would have produced FDA-approved treatments by the 1980s",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Stevens, Storming Heaven (1987); Doblin, MAPS Bulletin (1991)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-046",
+   "canonicalWorkId": "cs-046",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 45,
+   "title": "Cannabis has no accepted medical use — the Schedule I criterion is met",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "WHO ECDD Cannabis Critical Review (2019); Epidiolex FDA approval (2018)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-047",
+   "canonicalWorkId": "cs-047",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 46,
+   "title": "The 1937 Marihuana Tax Act was designed primarily to eliminate hemp as an industrial competitor",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Herer, The Emperor Wears No Clothes (1985, 12th ed.); McWilliams, The Protectors (1990)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-048",
+   "canonicalWorkId": "cs-048",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 47,
+   "title": "Industrial hemp can produce as much paper per acre as trees and with superior environmental impact",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "USDA Agricultural Research Service (2021); European Industrial Hemp Association LCA (2022)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-049",
+   "canonicalWorkId": "cs-049",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 48,
+   "title": "DMT entities are consistently reported across cultures, suggesting they are not purely culturally constructed",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Sexton et al., PLoS ONE (2019); Timmermann et al., Frontiers in Psychology (2021)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-050",
+   "canonicalWorkId": "cs-050",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 49,
+   "title": "The La Chorrera experiment of 1971 produced a genuine philosophical breakthrough",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "T. McKenna, True Hallucinations (1993); D. McKenna, Brotherhood of the Screaming Abyss (2012)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-051",
+   "canonicalWorkId": "cs-051",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 50,
+   "title": "High-dose psilocybin produces experiences indistinguishable from near-death experiences",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Martial et al., Frontiers in Psychology (2019); Griffiths et al., MEQ30 validation studies"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-052",
+   "canonicalWorkId": "cs-052",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 51,
+   "title": "Amazonian peoples developed the ayahuasca combination through rational empirical observation rather than supernatural guidance",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Schultes & Hofmann, Plants of the Gods (1979); Narby, The Cosmic Serpent (1998)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-053",
+   "canonicalWorkId": "cs-053",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 52,
+   "title": "Plants communicate with each other through chemical and electrical signals in ecologically meaningful ways",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Simard et al., Nature (1997); Baldwin et al., Nature (2001); Karban, Plant Sensing and Communication (2015)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-054",
+   "canonicalWorkId": "cs-054",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 53,
+   "title": "The extraction of indigenous pharmacological knowledge without benefit-sharing constitutes biopiracy under international law",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nagoya Protocol (2010); COICA v. US Patent Office (1999)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-055",
+   "canonicalWorkId": "cs-055",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 54,
+   "title": "Every major plant-derived drug in the modern pharmacopoeia was first identified through ethnobotanical observation",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Newman & Cragg, J Natural Products (2020); Cox & Balick, Scientific American (1994)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-056",
+   "canonicalWorkId": "cs-056",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 55,
+   "title": "The peyote conservation crisis will result in the extinction of traditional Native American Church ceremonies within this generation without intervention",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Cactus Conservation Institute reports (2024); NAC Conservation Statement (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-057",
+   "canonicalWorkId": "cs-057",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 56,
+   "title": "The ethnobotanical pharmacopoeia represents the most important untapped resource for new drug development",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Newman & Cragg, J Natural Products (2020); Fabricant & Farnsworth, Environmental Health Perspectives (2001)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "claimSorter/cs-058",
+   "canonicalWorkId": "cs-058",
+   "duplicateOf": null,
+   "corpus": "claimSorter",
+   "sourceIndex": 57,
+   "title": "Ibogaine is the most effective single-session treatment for opioid use disorder currently known",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Cherian et al., Nature Medicine (2023); Davis et al., American Journal on Addictions (2017)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  }
+ ]
+}

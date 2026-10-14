@@ -1,0 +1,92 @@
+{
+ "note": "Withheld records are counted by reason and not listed. Their ids, titles, excerpts and sources are kept in the source repository.",
+ "corpora": {
+  "writing": {
+   "count": 17,
+   "byReason": {
+    "direct quotation lacks deterministic source mapping": 16,
+    "missing item-level source": 1
+   }
+  },
+  "quoteCards": {
+   "count": 337,
+   "byReason": {
+    "third-party quotation or excerpt requires item-specific publication basis": 337
+   }
+  },
+  "thenVsNow": {
+   "count": 0,
+   "byReason": {}
+  },
+  "flashcards": {
+   "count": 553,
+   "byReason": {
+    "missing item-level source": 553
+   }
+  },
+  "miniEssays": {
+   "count": 58,
+   "byReason": {
+    "factual or interpretive object lacks item-level source authority": 58
+   }
+  },
+  "modules": {
+   "count": 0,
+   "byReason": {}
+  },
+  "documents": {
+   "count": 13,
+   "byReason": {
+    "third-party quotation or excerpt requires item-specific publication basis": 13
+   }
+  },
+  "characters": {
+   "count": 12,
+   "byReason": {
+    "third-party quotation or excerpt requires item-specific publication basis": 12
+   }
+  },
+  "passages": {
+   "count": 12,
+   "byReason": {
+    "third-party quotation or excerpt requires item-specific publication basis": 12
+   }
+  },
+  "geography": {
+   "count": 12,
+   "byReason": {
+    "factual or interpretive object lacks item-level source authority": 12
+   }
+  },
+  "bridges": {
+   "count": 0,
+   "byReason": {}
+  },
+  "readingLists": {
+   "count": 0,
+   "byReason": {}
+  },
+  "annotations": {
+   "count": 0,
+   "byReason": {}
+  },
+  "notebookLM": {
+   "count": 0,
+   "byReason": {}
+  },
+  "claimSorter": {
+   "count": 0,
+   "byReason": {}
+  },
+  "timeline": {
+   "count": 196,
+   "byReason": {
+    "timeline entry lacks item-level authority": 196
+   }
+  },
+  "courseModules": {
+   "count": 0,
+   "byReason": {}
+  }
+ }
+}

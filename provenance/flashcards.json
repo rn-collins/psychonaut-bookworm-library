@@ -1,0 +1,196 @@
+{
+ "schemaVersion": "1.0.0",
+ "corpus": "flashcards",
+ "records": [
+  {
+   "recordId": "flashcards/fc-001",
+   "canonicalWorkId": "fc-001",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 0,
+   "title": "What is the primary mechanism of action of classical psychedelics?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols, D.E. Pharmacological Reviews 68(2):264-355 (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-002",
+   "canonicalWorkId": "fc-002",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 1,
+   "title": "What is functional selectivity at the 5-HT2A receptor and why does it matter therapeutically?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols, D.E. Pharmacological Reviews 68(2) (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-003",
+   "canonicalWorkId": "fc-003",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 2,
+   "title": "Where in the brain are 5-HT2A receptors most densely expressed?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols, D.E. Pharmacological Reviews 68(2) (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-004",
+   "canonicalWorkId": "fc-004",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 3,
+   "title": "What is the safety profile of classical psychedelics?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols (2016); Weil & Rosen (1993) cited in Tupper (2003)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-005",
+   "canonicalWorkId": "fc-005",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 4,
+   "title": "What does psilocybin do to dendritic spines?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Shao et al. (2021); Vargas et al. (2023)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-006",
+   "canonicalWorkId": "fc-006",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 5,
+   "title": "What is the Default Mode Network and what do psychedelics do to it?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols (2016); Carhart-Harris et al. (multiple)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-007",
+   "canonicalWorkId": "fc-007",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 6,
+   "title": "What is the pharmacology of ayahuasca? Why does oral DMT work in ayahuasca but not on its own?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Labate & Cavnar, Therapeutic Use of Ayahuasca (2014); Labate & Cavnar, Ayahuasca Healing and Science (2021)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-008",
+   "canonicalWorkId": "fc-008",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 7,
+   "title": "What is endogenous DMT and what do we actually know about it?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols (2016); Roney-Dougal in Paranthropology Vol.2 No.2 (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-009",
+   "canonicalWorkId": "fc-009",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 8,
+   "title": "What therapeutic applications have the strongest evidence?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols (2016); MAPS Phase 3 data; Gregoire, NEO.LIFE (2020)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "flashcards/fc-010",
+   "canonicalWorkId": "fc-010",
+   "duplicateOf": null,
+   "corpus": "flashcards",
+   "sourceIndex": 9,
+   "title": "What is the \"reducing valve\" model and how does it map to current neuroscience?",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley (1954); Nichols (2016); Carhart-Harris et al."
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  }
+ ]
+}

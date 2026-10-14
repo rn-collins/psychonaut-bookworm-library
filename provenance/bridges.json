@@ -1,0 +1,169 @@
+{
+ "schemaVersion": "1.0.0",
+ "corpus": "bridges",
+ "records": [
+  {
+   "recordId": "bridges/bridge-001",
+   "canonicalWorkId": "bridge-001",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 0,
+   "title": "The Two Letters of 1953: Huxley to Osmond, Dulles to the CIA",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley-Osmond Letters",
+    "Stevens, Storming Heaven (1987)",
+    "MK-Ultra FOIA files"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-002",
+   "canonicalWorkId": "bridge-002",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 1,
+   "title": "María Sabina and the Machine Elves: Two Accounts of Encountering the Other",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Hofmann, LSD: My Problem Child (1979)",
+    "McKenna, True Hallucinations (1993)",
+    "Hunter (ed.), Paranthropology (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-003",
+   "canonicalWorkId": "bridge-003",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 2,
+   "title": "The War Osmond Was Fighting and the War Anslinger Was Fighting",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley-Osmond Letters",
+    "Hari, Chasing the Scream (2015)",
+    "Medical History of Psychedelic Drugs, Cambridge (2007)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-004",
+   "canonicalWorkId": "bridge-004",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 3,
+   "title": "The Aspirin Pill, the Decorticator, and the Double Loss",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Schultes, NIMH Symposium (1967)",
+    "Herer, The Emperor Wears No Clothes (1985)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-005",
+   "canonicalWorkId": "bridge-005",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 4,
+   "title": "The Sacred Drug and the Dominator Drug: Hofmann and McKenna on Alcohol",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Hofmann, LSD: My Problem Child (1979)",
+    "McKenna, Food of the Gods (1992)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-006",
+   "canonicalWorkId": "bridge-006",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 5,
+   "title": "What the Mystic Sees: Huxley's Is-ness and the Eleusinian Initiates",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Huxley, The Doors of Perception (1954)",
+    "Wasson, Hofmann & Ruck, The Road to Eleusis (1978)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-007",
+   "canonicalWorkId": "bridge-007",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 6,
+   "title": "The Race Against Time: Schultes's Urgency and Hari's Crisis",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Schultes & Hofmann, Plants of the Gods (1979)",
+    "Hari, Chasing the Scream (2015)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "bridges/bridge-008",
+   "canonicalWorkId": "bridge-008",
+   "duplicateOf": null,
+   "corpus": "bridges",
+   "sourceIndex": 7,
+   "title": "The Experiment and the Institution: La Chorrera and the Weyburn Trials",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna, True Hallucinations (1993)",
+    "Huxley & Osmond, Moksha (1977)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  }
+ ]
+}

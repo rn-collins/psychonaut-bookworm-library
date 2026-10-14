@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-08-15",
+  "canonicalObjectCount": 1609,
+  "ledgerRecordCount": 1664,
+  "presentationInventoryCount": 1399,
+  "presentationCountExplanation": "The historic 1,399 count includes 55 mini-essay writing pieces twice: once inside Writing and again as the Mini-Essays content type. duplicateOf and canonicalWorkId make that relationship explicit.",
+  "publisher": "RN Collins",
+  "publicationRelationship": "Independent editorial prototype. Fat Nugs Magazine is not represented as owner, publisher, sponsor, approver, affiliate, or revenue participant.",
+  "rules": {
+    "publish": "Item has item-level source evidence when required and does not reproduce a rights-sensitive quotation/excerpt without a deterministic publication basis.",
+    "withhold": "Item is excluded from the public data object when source or quotation/rights requirements are not met.",
+    "corrections": "Requests are accepted through /governance and /api/correction."
+  },
+  "corpora": [
+    {
+      "corpus": "writing",
+      "path": "/provenance/writing.json",
+      "records": 238,
+      "published": 221,
+      "withheld": 17
+    },
+    {
+      "corpus": "quoteCards",
+      "path": "/provenance/quoteCards.json",
+      "records": 337,
+      "published": 0,
+      "withheld": 337
+    },
+    {
+      "corpus": "thenVsNow",
+      "path": "/provenance/thenVsNow.json",
+      "records": 112,
+      "published": 112,
+      "withheld": 0
+    },
+    {
+      "corpus": "flashcards",
+      "path": "/provenance/flashcards.json",
+      "records": 563,
+      "published": 10,
+      "withheld": 553
+    },
+    {
+      "corpus": "miniEssays",
+      "path": "/provenance/miniEssays.json",
+      "records": 58,
+      "published": 0,
+      "withheld": 58
+    },
+    {
+      "corpus": "modules",
+      "path": "/provenance/modules.json",
+      "records": 3,
+      "published": 3,
+      "withheld": 0
+    },
+    {
+      "corpus": "documents",
+      "path": "/provenance/documents.json",
+      "records": 13,
+      "published": 0,
+      "withheld": 13
+    },
+    {
+      "corpus": "characters",
+      "path": "/provenance/characters.json",
+      "records": 12,
+      "published": 0,
+      "withheld": 12
+    },
+    {
+      "corpus": "passages",
+      "path": "/provenance/passages.json",
+      "records": 12,
+      "published": 0,
+      "withheld": 12
+    },
+    {
+      "corpus": "geography",
+      "path": "/provenance/geography.json",
+      "records": 12,
+      "published": 0,
+      "withheld": 12
+    },
+    {
+      "corpus": "bridges",
+      "path": "/provenance/bridges.json",
+      "records": 8,
+      "published": 8,
+      "withheld": 0
+    },
+    {
+      "corpus": "readingLists",
+      "path": "/provenance/readingLists.json",
+      "records": 11,
+      "published": 11,
+      "withheld": 0
+    },
+    {
+      "corpus": "annotations",
+      "path": "/provenance/annotations.json",
+      "records": 11,
+      "published": 11,
+      "withheld": 0
+    },
+    {
+      "corpus": "notebookLM",
+      "path": "/provenance/notebookLM.json",
+      "records": 12,
+      "published": 12,
+      "withheld": 0
+    },
+    {
+      "corpus": "claimSorter",
+      "path": "/provenance/claimSorter.json",
+      "records": 58,
+      "published": 58,
+      "withheld": 0
+    },
+    {
+      "corpus": "timeline",
+      "path": "/provenance/timeline.json",
+      "records": 196,
+      "published": 0,
+      "withheld": 196
+    },
+    {
+      "corpus": "courseModules",
+      "path": "/provenance/courseModules.json",
+      "records": 8,
+      "published": 8,
+      "withheld": 0
+    }
+  ]
+}

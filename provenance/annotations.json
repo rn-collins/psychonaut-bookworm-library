@@ -1,0 +1,215 @@
+{
+ "schemaVersion": "1.0.0",
+ "corpus": "annotations",
+ "records": [
+  {
+   "recordId": "annotations/sa-001",
+   "canonicalWorkId": "sa-001",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 0,
+   "title": "Psilocybin mushrooms catalyzed the evolution of human consciousness and the doubling of the hominin brain over two million years.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Shao et al. (2021); Nichols, Pharmacological Reviews (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-002",
+   "canonicalWorkId": "sa-002",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 1,
+   "title": "Endogenous DMT is produced by the pineal gland and mediates mystical states, near-death experiences, and deep sleep.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols, Pharmacological Reviews (2016); Roney-Dougal in Paranthropology Vol.2 No.2 (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-003",
+   "canonicalWorkId": "sa-003",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 2,
+   "title": "The La Chorrera experiment produced a novel pharmacological state by combining mushroom tryptamines with human neurochemistry in a way that catalyzed a temporary fusion of consciousness with a broader information field.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "McKenna, True Hallucinations (1993)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-004",
+   "canonicalWorkId": "sa-004",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 3,
+   "title": "Entities encountered during DMT experience are genuinely external — not projections of the subject's mind but autonomous intelligences that exist independently.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Timmermann et al. (2019); Hunter (ed.), Paranthropology Vol.2 No.2 (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-005",
+   "canonicalWorkId": "sa-005",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 4,
+   "title": "Timewave Zero: history accelerates toward a final moment of \"maximum novelty\" predicted for December 21, 2012.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Observation; McKenna own writings"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-006",
+   "canonicalWorkId": "sa-006",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 5,
+   "title": "Psilocybin, by increasing visual acuity at low doses, provided adaptive advantages to early hominids that drove selection for larger brains.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols (2016); current paleoanthropology literature"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-007",
+   "canonicalWorkId": "sa-007",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 6,
+   "title": "Lasting neuroplasticity from psychedelic exposure: the La Chorrera experience permanently altered the McKenna brothers' neural architecture.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Shao et al. (2021); Nichols (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-008",
+   "canonicalWorkId": "sa-008",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 7,
+   "title": "The brain's primary function is to restrict consciousness rather than produce it — filtering out most of what could be perceived.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Carhart-Harris & Friston (2019); Carhart-Harris et al., PNAS (2012)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-009",
+   "canonicalWorkId": "sa-009",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 8,
+   "title": "Set and setting — the mindset and environment of the person taking a psychedelic — are primary determinants of the experience's character and therapeutic outcome.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Borkel et al. (2024); Hartogsohn, Multidisciplinary Association for Psychedelic Studies (2016)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-010",
+   "canonicalWorkId": "sa-010",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 9,
+   "title": "A single psychedelic session can produce lasting psychological change persisting for months or years — not merely temporary state alteration.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Shao et al., Neuron (2021); MacLean et al., Psychopharmacology (2011)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "annotations/sa-011",
+   "canonicalWorkId": "sa-011",
+   "duplicateOf": null,
+   "corpus": "annotations",
+   "sourceIndex": 10,
+   "title": "Indigenous Amazonian pharmacological knowledge is accurate enough to have produced every major plant-derived drug in the modern pharmacopoeia, suggesting an empirical system of knowledge generation that Western science cannot yet explain.",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Newman & Cragg, J Natural Products (2020); Fabricant & Farnsworth, Environmental Health Perspectives (2001)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  }
+ ]
+}

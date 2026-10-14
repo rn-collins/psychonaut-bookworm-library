@@ -1,0 +1,68 @@
+{
+ "schemaVersion": "1.0.0",
+ "corpus": "modules",
+ "records": [
+  {
+   "recordId": "modules/edu-001",
+   "canonicalWorkId": "edu-001",
+   "duplicateOf": null,
+   "corpus": "modules",
+   "sourceIndex": 0,
+   "title": "Psychedelic Science for Science Writers",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Nichols, Pharmacological Reviews 68(2) (2016)",
+    "Medical History of Psychedelic Drugs, Cambridge HPS (2007)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "modules/edu-002",
+   "canonicalWorkId": "edu-002",
+   "duplicateOf": null,
+   "corpus": "modules",
+   "sourceIndex": 1,
+   "title": "The History of Prohibition: Primary Sources and Policy",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Herer, The Emperor Wears No Clothes (1985)",
+    "Marlan, Beyond Cannabis (2019)",
+    "Hari, Chasing the Scream (2015)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  },
+  {
+   "recordId": "modules/edu-003",
+   "canonicalWorkId": "edu-003",
+   "duplicateOf": null,
+   "corpus": "modules",
+   "sourceIndex": 2,
+   "title": "Decolonizing Psychedelic Research: Frameworks and Practices",
+   "publicationStatus": "publish",
+   "suppressionReason": null,
+   "editorialOwner": "RN Collins",
+   "publisherRelationship": "Independent RN Collins editorial prototype; no Fat Nugs affiliation, endorsement, sponsorship, ownership, or revenue relationship is asserted.",
+   "rightsBasis": "original editorial or bibliographic/educational metadata; cited third-party sources are not reproduced wholesale",
+   "sourceEvidence": [
+    "Gregoire, NEO.LIFE (2020)",
+    "Schultes, NIMH Symposium (1967)",
+    "Labate & Cavnar, Therapeutic Use of Ayahuasca (2014)"
+   ],
+   "quotationExcerpts": [],
+   "verifiedOn": "2026-08-15",
+   "correctionRoute": "/governance"
+  }
+ ]
+}

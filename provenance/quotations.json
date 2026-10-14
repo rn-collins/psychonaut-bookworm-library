@@ -1,0 +1,183 @@
+{
+ "schemaVersion": "1.0.0",
+ "purpose": "Deterministic source mapping for direct quotations: each entry names the work, edition or translation, a locator, and where the exact wording can be checked. `match` is the wording as it appears in released pieces; the release-gate test fails if a mapped match is missing from a listed piece, if a quotation from a withheld ledger record appears in released data without an entry here, or if an untraced quotation reappears.",
+ "checkedOn": "2026-10-13",
+ "quotations": [
+  {
+   "id": "q01",
+   "status": "corrected",
+   "match": "take half a gramme of phanerothyme",
+   "appearsIn": [
+    "pieces/the-word-that-changed-everything",
+    "pieces/passage-moksha-naming",
+    "notebookLM/nlm-001",
+    "courseModules/mod-02"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "Letter from Aldous Huxley to Humphry Osmond, 30 March 1956 (couplet in the postscript)",
+    "author": "Aldous Huxley",
+    "year": "1956 (letter); first book printing 1969",
+    "edition_or_translation": "The Letters of Aldous Huxley, ed. Grover Smith (London: Chatto & Windus, 1969)",
+    "locator": "letter 744; editorial note p. 795",
+    "url": "https://archive.org/details/lettersofaldoush0000unse (Smith, lending library); https://archive.org/details/mokshawritingson00huxl (Moksha, lending library)"
+   },
+   "note": "Printed as 'gramme'. The library earlier gave 'gram'. The couplet is Huxley's entry in the naming exchange with Osmond."
+  },
+  {
+   "id": "q02",
+   "status": "verified",
+   "match": "To fathom Hell or soar angelic",
+   "appearsIn": [
+    "pieces/the-word-that-changed-everything",
+    "pieces/passage-moksha-naming",
+    "pieces/mini-moksha-couplet",
+    "notebookLM/nlm-001",
+    "courseModules/mod-02"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "Humphry Osmond's rhyming reply to Huxley's 1956 letter, quoted in the editor's note to letter 744",
+    "author": "Humphry Osmond (quoted by Grover Smith)",
+    "year": "1956 (reply); first book printing 1969",
+    "edition_or_translation": "The Letters of Aldous Huxley, ed. Grover Smith (London: Chatto & Windus, 1969)",
+    "locator": "note to letter 744, p. 795",
+    "url": "https://archive.org/details/lettersofaldoush0000unse (lending library)"
+   },
+   "note": "The reply is undated in every source consulted. Osmond's later recollections give other wordings."
+  },
+  {
+   "id": "q03",
+   "status": "corrected",
+   "match": "everything glistened and sparkled in a fresh light. The world was as if newly created.",
+   "appearsIn": [
+    "notebookLM/nlm-002"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott. First English edition: New York: McGraw-Hill, 1980. J. P. Tarcher (Los Angeles), 1983 printing (the scan I read, copyright 1983 Hofmann and Ott). Reissued by MAPS (Santa Cruz, CA, 2005; 2009 archive.org record). Translator's Preface says the translation 'has been carefully overseen by Albert Hofmann'.",
+    "locator": "chapter 1, 'How LSD Originated'; p. 19 of the 1983 Tarcher printing",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "The sentence continues '...after a spring rain, everything glistened...', so it begins in lower case. It describes the morning after the 19 April 1943 experiment."
+  },
+  {
+   "id": "q05",
+   "status": "verified",
+   "match": "Seeking the Magic Mushroom",
+   "appearsIn": [
+    "pieces/hofmann-and-the-mushrooms",
+    "pieces/wasson-life-magazine",
+    "readingLists/crl-003"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "'Seeking the Magic Mushroom', Life, vol. 42, no. 19, 13 May 1957",
+    "author": "R. Gordon Wasson",
+    "year": "1957",
+    "edition_or_translation": "LIFE magazine, vol. 42, no. 19, 13 May 1957 (Time Inc.)",
+    "locator": "pp. 100-102, 109-120 (opening spread pp. 100-101; Google Books lists the article at p. 100, and a related photo feature 'Rare vision-giving fungi shown for first time' at p. 106)",
+    "url": "https://books.google.com/books?id=Jj8EAAAAMBAJ&pg=PA100"
+   },
+   "note": "A title, not a quotation. Life volume is 42, not 49. The headline is set in capitals."
+  },
+  {
+   "id": "q06",
+   "status": "verified",
+   "match": "a Last Judgment which, after a long time and with considerable difficulty, I recognized as a chair",
+   "appearsIn": [
+    "notebookLM/nlm-001"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "The Doors of Perception (the mescalin experiment, a single unnumbered essay; the sentence comes just after the passage on the garden chair with the striped shadows, 'That chair - shall I ever forget it?', and the discussion of schizophrenia)",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition: London: Chatto & Windus, 1954 (New York: Harper, 1954). The page number below is from the later Harper (New York) paperback printing, ISBN 978-0-06-080171-7 (the scan I read).",
+    "locator": "p. 55 of the Harper paperback printing (printed folio). The text has no chapter or section numbers (Heaven and Hell, 1956, is a separate book). First-edition (Chatto & Windus 1954) page not verified; use the Harper page only if the edition is cited.",
+    "url": "https://archive.org/details/the-doors-of-perception-huxley-aldous-1894-1963-1954-new-york-harper-97800608017 (lending); an open OCR text is in the archive.org item backup-lit-h, file 'H epub/Huxley, Aldous - 1954 - The Doors of Perception'"
+   },
+   "note": "A fragment of a longer sentence that ends '...as a chair, I found myself all at once on the brink of panic.'"
+  },
+  {
+   "id": "q07",
+   "status": "corrected",
+   "match": "against the war or black,",
+   "appearsIn": [
+    "pieces/policy-chasing-scream-racial",
+    "thenVsNow/tvn-032",
+    "claimSorter/cs-014",
+    "notebookLM/nlm-006",
+    "courseModules/mod-05",
+    "courseModules/mod-07"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "Legalize It All: How to win the war on drugs (Harper's Magazine, cover story / Report)",
+    "author": "Dan Baum, quoting John Ehrlichman (Richard Nixon's domestic policy adviser) from a 1994 interview with Baum",
+    "year": "2016 (April 2016 issue; online about 22 March 2016)",
+    "edition_or_translation": "Harper's Magazine, April 2016 issue (print and web). Opening paragraphs of the piece. Not Hari.",
+    "locator": "Opening paragraphs, first page of the article. The interview was in 1994 (Baum gives no month or day). Print page numbers of the April 2016 issue not verified.",
+    "url": "https://harpers.org/archive/2016/04/legalize-it-all/ (paywalled, HTTP 402 to my fetch); Wayback capture I read: https://web.archive.org/web/20161231234109/https://harpers.org/archive/2016/04/legalize-it-all/"
+   },
+   "note": "Attributed to John Ehrlichman from a 1994 interview with Dan Baum, first published in Harper's in 2016. Not from Hari's 2015 book. Harper's prints 'black' and 'blacks' in lower case. A single-source account; Ehrlichman's family and several former Nixon aides dispute it. Released pieces say so."
+  },
+  {
+   "id": "q08",
+   "status": "corrected",
+   "match": "to die with a better hope",
+   "appearsIn": [
+    "notebookLM/nlm-003"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "De Legibus (Laws), book II, section 14.36 (Marcus speaking, on the Athenian mysteries)",
+    "author": "Cicero",
+    "year": "c. 52-51 BC; translation 1928",
+    "edition_or_translation": "Loeb Classical Library vol. 213, Cicero XVI: De Re Publica, De Legibus, translated by Clinton Walker Keyes (Harvard UP / Heinemann, 1928)",
+    "locator": "Laws II.xiv.36 (Loeb header 'LAWS II. xiv. 35-xv. 37'), English on p. 414 of the Loeb volume per the scan's page numbering; Latin at II.36: 'neque solum cum laetitia vivendi rationem accepimus, sed etiam cum spe meliore moriendi'",
+    "url": "https://archive.org/details/cicero-in-28-volumes.-vol.-16-loeb-213"
+   },
+   "note": "Keyes's Loeb translation reads 'a better hope'. Check the Loeb page number against the scan before printing."
+  },
+  {
+   "id": "q09",
+   "status": "corrected",
+   "match": "he knows the end of life and he knows its god-sent beginning",
+   "appearsIn": [
+    "notebookLM/nlm-003"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "Greek Folk Religion (US title of Greek Popular Religion), chapter 'The Religion of Eleusis', quoting Pindar fr. 137 (Bergk numbering)",
+    "author": "Martin P. Nilsson",
+    "year": "1940 (Columbia UP, as Greek Popular Religion); reprint Harper Torchbooks 1961",
+    "edition_or_translation": "Nilsson's own English rendering of the Pindar fragment (1961 Harper Torchbooks scan opened; 1940 pagination not checked)",
+    "locator": "p. 59 of the 1961 Torchbooks edition, note 29: 'Frag. 137, in T. Bergk, Poetae lyrici Graeci, 4th ed.'",
+    "url": "https://archive.org/details/greekfolkreligio00nils"
+   },
+   "note": "Nilsson's rendering of Pindar fr. 137 (Bergk; Snell-Maehler 137a; Bowra 121). The Road to Eleusis says 'divinely granted beginning'."
+  },
+  {
+   "id": "q10",
+   "status": "corrected",
+   "match": "New Billion-Dollar Crop",
+   "appearsIn": [
+    "pieces/popular-mechanics-billion"
+   ],
+   "ledgerRecords": [],
+   "source": {
+    "work": "'New Billion-Dollar Crop' (article; headline 'NEW BILLION-DOLLAR CROP', running head 'New Billion-Dollar Crop')",
+    "author": "unsigned (Popular Mechanics staff)",
+    "year": "1938",
+    "edition_or_translation": "Popular Mechanics, vol. 69, no. 2, February 1938 (Popular Mechanics Co., Chicago)",
+    "locator": "pp. 238-239 (headline opens p. 238, 'Continued from page 238' on p. 239)",
+    "url": "https://books.google.com/books?id=e9sDAAAAMBAJ&pg=PA238"
+   },
+   "note": "The headline is 'New Billion-Dollar Crop'. The phrase 'the new billion-dollar crop' appears only in secondary literature. 'Billion' appears only in the headline; the article text says 'several hundred million dollars'."
+  }
+ ]
+}

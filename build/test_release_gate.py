@@ -56,9 +56,41 @@ def served_text(out):
 def ledger_records():
     out = []
     for fn in sorted(os.listdir(os.path.join(ROOT, "provenance"))):
-        if fn.endswith(".json") and fn not in ("manifest.json", "withheld.json"):
+        if fn.endswith(".json") and fn not in ("manifest.json", "withheld.json", "quotations.json"):
             out += json.load(open(os.path.join(ROOT, "provenance", fn), encoding="utf-8"))["records"]
     return out
+
+
+def check_quotations(records, released):
+    """Direct quotations need a deterministic source mapping (provenance/quotations.json)."""
+    path = os.path.join(ROOT, "provenance", "quotations.json")
+    if not os.path.exists(path):
+        return
+    doc = json.load(open(path, encoding="utf-8"))
+    library = json.load(open(os.path.join(ROOT, "data", "library.json"), encoding="utf-8"))
+    items = {f"{k}/{x['id']}": json.dumps(x, ensure_ascii=False)
+             for k, v in library.items() if isinstance(v, list) for x in v}
+    everything = "\n".join(items.values())
+    matches = []
+    for q in doc["quotations"]:
+        if q["status"] == "not_traced":
+            check(q["absent"] not in everything, f"{q['id']}: a quotation that could not be traced is back in released data")
+            continue
+        check(q["status"] in ("verified", "corrected"), f"{q['id']}: unknown status {q['status']}")
+        check(bool(q["source"].get("work")) and bool(q["source"].get("locator")),
+              f"{q['id']}: a mapped quotation needs a work and a locator")
+        matches.append(q["match"])
+        for item in q["appearsIn"]:
+            check(item in items and q["match"] in items[item],
+                  f"{q['id']}: '{q['match'][:50]}' is not in {item}")
+    # A quotation recorded on a withheld ledger record must not sit in released data unmapped.
+    for r in records:
+        if r["recordId"] in released:
+            continue
+        for ex in r.get("quotationExcerpts") or []:
+            if len(ex) >= 25 and ex in everything:
+                check(any(m in ex or ex in m for m in matches),
+                      f"{r['recordId']}: quotation in released data has no source mapping: {ex[:60]}")
 
 
 def main():
@@ -76,6 +108,7 @@ def main():
     library_text = open(os.path.join(ROOT, "data", "library.json"), encoding="utf-8").read()
     library_text = json.dumps(json.loads(library_text), ensure_ascii=False)
     records = ledger_records()
+    check_quotations(records, released)
     check(len(records) == len(rel), f"releases.json has {len(rel)} entries, ledger has {len(records)}")
 
     with tempfile.TemporaryDirectory() as tmp:

@@ -134,6 +134,18 @@ jobs:
                {"note": "Withheld records are counted by reason and not listed. Their ids, titles, "
                         "excerpts and sources are kept in the source repository.",
                 "corpora": counts})
+    # Quotation mapping: verified and corrected entries only. Entries for quotations that could not
+    # be traced belong to withheld records and stay in the source repository, and ledger record ids
+    # are listed only for records that are released.
+    qpath = os.path.join(ROOT, "provenance", "quotations.json")
+    if os.path.exists(qpath):
+        qdoc = json.load(open(qpath, encoding="utf-8"))
+        kept = []
+        for q in qdoc["quotations"]:
+            if q["status"] == "not_traced":
+                continue
+            kept.append({**q, "ledgerRecords": [r for r in q.get("ledgerRecords", []) if r in released]})
+        write_json(os.path.join(out, "provenance", "quotations.json"), {**qdoc, "quotations": kept})
     shutil.copy2(os.path.join(ROOT, "provenance", "manifest.json"), os.path.join(out, "provenance", "manifest.json"))
 
     # Leak check: no withheld id and no withheld record text anywhere in the export.
@@ -149,6 +161,24 @@ jobs:
                     v = x.get(field)
                     if isinstance(v, str) and len(v) >= 40:
                         needles.add(v[:80])
+    # Withheld ledger records (their text lives in provenance/): titles and quotation excerpts.
+    # Text that already appears in released library content is public on the live site and is
+    # reported, not treated as a leak.
+    released_library = json.dumps(json.load(open(os.path.join(out, "data", "library.json"), encoding="utf-8")),
+                                  ensure_ascii=False)
+    already_public = 0
+    for c in manifest["corpora"]:
+        src = json.load(open(os.path.join(ROOT, "provenance", f"{c['corpus']}.json"), encoding="utf-8"))
+        for r in src["records"]:
+            if r["recordId"] in released:
+                continue
+            strings = [r["title"]] if len(r.get("title") or "") >= 12 else []
+            strings += [q for q in (r.get("quotationExcerpts") or []) if len(q) >= 25]
+            for s in strings:
+                if s in released_library:
+                    already_public += 1
+                else:
+                    needles.add(s)
     leaks = []
     for dirpath, dirs, files in os.walk(out):
         dirs[:] = [d for d in dirs if d != ".git"]
@@ -163,9 +193,15 @@ jobs:
                     leaks.append((os.path.relpath(p, out), n[:60]))
                     break
     if leaks:
-        shutil.rmtree(out, ignore_errors=True)
+        for name in os.listdir(out):  # clear the output, keep the target's git folder
+            if name != ".git":
+                p = os.path.join(out, name)
+                shutil.rmtree(p, ignore_errors=True) if os.path.isdir(p) else os.remove(p)
         raise SystemExit("Refusing to export; withheld material found in:\n  " +
                          "\n  ".join(f"{p}: {n!r}" for p, n in leaks[:20]))
+    if already_public:
+        print(f"note: {already_public} withheld titles or quotations also appear in released library "
+              f"content, which the live site already serves")
     print(f"exported {len(released)} released records as of {today}; "
           f"{len(withheld_rows)} withheld records carried as counts only -> {out}")
 

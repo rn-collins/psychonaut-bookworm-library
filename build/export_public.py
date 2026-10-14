@@ -96,9 +96,8 @@ jobs:
       - name: Build the site
         run: python3 build/build.py
 """)
-    made = os.path.join(ROOT, ".github", "workflows", "made-with.yml")
-    if os.path.exists(made):
-        shutil.copy2(made, os.path.join(wf, "made-with.yml"))
+    # The Made-with commit rule belongs to the private repository. It would also fail
+    # any outside contributor's pull request, so the open edition does not carry it.
     with open(os.path.join(out, ".gitignore"), "w", encoding="utf-8") as f:
         f.write("dist/\n__pycache__/\n*.pyc\n.DS_Store\n")
 

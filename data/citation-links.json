@@ -1,0 +1,1938 @@
+{
+ "schemaVersion": "1.0.0",
+ "note": "Maps a citation, written exactly as it appears in data/library.json, to the place it can be checked. A citation with no entry here is printed as plain text. kind is doi, pubmed or url. verified is the date the link was checked. For a DOI, Crossref and the DOI resolver both returned the work and its first author and year match the citation. For a PubMed link, the PubMed record's first author, title and year match. For a url, the page loaded (HTTP 200) and named the cited work. matched records what was found. Source strings that join several citations with a semicolon are split there and each part is looked up on its own. build/verify_citation_links.py re-checks the file against Crossref, the DOI resolver and the web.",
+ "links": {
+  "Alexander et al., Pharmacology Biochemistry and Behavior (1981)": {
+   "url": "https://doi.org/10.1016/0091-3057(81)90211-2",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Alexander",
+    "year": 1981,
+    "title": "Effect of early and later colony housing on oral ingestion of morphine in rats"
+   }
+  },
+  "Alexander, Coambs & Hadaway, Psychopharmacology (1978)": {
+   "url": "https://doi.org/10.1007/bf00426903",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Alexander",
+    "year": 1978,
+    "title": "The effect of housing and gender on morphine self-administration in rats"
+   }
+  },
+  "American Indian Religious Freedom Act (1978)": {
+   "url": "https://www.law.cornell.edu/uscode/text/42/1996",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "42 U.S. Code § 1996 - Protection and preservation of traditional religions of Native Americans | U.S. Code | US Law | LII / Legal Information Institute"
+   }
+  },
+  "American Indian Religious Freedom Act Amendments (1994)": {
+   "url": "https://www.law.cornell.edu/uscode/text/42/1996a",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "42 U.S. Code § 1996a - Traditional Indian religious use of peyote | U.S. Code | US Law | LII / Legal Information Institute"
+   }
+  },
+  "Antonopoulos et al., Scientific Reports (2026)": {
+   "url": "https://doi.org/10.1038/s41598-026-39568-3",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Antonopoulos",
+    "year": 2026,
+    "title": "Investigating the psychedelic hypothesis of kykeon, the sacred elixir of the Eleusinian Mysteries"
+   }
+  },
+  "Antonopoulos et al., Scientific Reports (February 2026)": {
+   "url": "https://doi.org/10.1038/s41598-026-39568-3",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Antonopoulos",
+    "year": 2026,
+    "title": "Investigating the psychedelic hypothesis of kykeon, the sacred elixir of the Eleusinian Mysteries"
+   }
+  },
+  "Aviram & Samuelly, Pain Physician (2017)": {
+   "url": "https://doi.org/10.36076/ppj.20.5.e755",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Aviram",
+    "year": 2017,
+    "title": "Efficacy of Cannabis-Based Medicines for Pain Management: A Systematic Review and MetaAnalysis of Randomized Controlled Trials"
+   }
+  },
+  "Barker, McIlhenny & Strassman, Drug Testing and Analysis (2012)": {
+   "url": "https://doi.org/10.1002/dta.422",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barker",
+    "year": 2012,
+    "title": "A critical review of reports of endogenous psychedelic N, N-dimethyltryptamines in humans: 1955-2010"
+   }
+  },
+  "Barrett & Griffiths (2018)": {
+   "url": "https://doi.org/10.1007/7854_2017_474",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barrett",
+    "year": 2017,
+    "title": "Classic Hallucinogens and Mystical Experiences: Phenomenology and Neural Correlates"
+   }
+  },
+  "Barrett & Griffiths, Classic Hallucinogens and Mystical Experiences, Curr Top Behav Neurosci (2018)": {
+   "url": "https://doi.org/10.1007/7854_2017_474",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barrett",
+    "year": 2017,
+    "title": "Classic Hallucinogens and Mystical Experiences: Phenomenology and Neural Correlates"
+   }
+  },
+  "Barrett & Griffiths, Curr Top Behav Neurosci (2018)": {
+   "url": "https://doi.org/10.1007/7854_2017_474",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barrett",
+    "year": 2017,
+    "title": "Classic Hallucinogens and Mystical Experiences: Phenomenology and Neural Correlates"
+   }
+  },
+  "Barrett et al., J Psychopharmacol (2015)": {
+   "url": "https://doi.org/10.1177/0269881115609019",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barrett",
+    "year": 2015,
+    "title": "Validation of the revised Mystical Experience Questionnaire in experimental sessions with psilocybin"
+   }
+  },
+  "Barrett et al., J Psychopharmacol (2015), MEQ30 validation": {
+   "url": "https://doi.org/10.1177/0269881115609019",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Barrett",
+    "year": 2015,
+    "title": "Validation of the revised Mystical Experience Questionnaire in experimental sessions with psilocybin"
+   }
+  },
+  "Biden Executive Order Cannabis Pardons (October 2022)": {
+   "url": "https://www.federalregister.gov/documents/2022/10/12/2022-22262/granting-pardon-for-the-offense-of-simple-possession-of-marijuana",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Federal Register :: Granting Pardon for the Offense of Simple Possession of Marijuana"
+   }
+  },
+  "Biden Pardon Proclamation (October 2022)": {
+   "url": "https://www.federalregister.gov/documents/2022/10/12/2022-22262/granting-pardon-for-the-offense-of-simple-possession-of-marijuana",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Federal Register :: Granting Pardon for the Offense of Simple Possession of Marijuana"
+   }
+  },
+  "Bogenschutz et al., JAMA Psychiatry (2022)": {
+   "url": "https://doi.org/10.1001/jamapsychiatry.2022.2096",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Bogenschutz",
+    "year": 2022,
+    "title": "Percentage of Heavy Drinking Days Following Psilocybin-Assisted Psychotherapy vs Placebo in the Treatment of Adult Patients With Alcohol Use Disorder"
+   }
+  },
+  "Borkel et al. (2024)": {
+   "url": "https://doi.org/10.1080/17512433.2023.2295997",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Borkel",
+    "year": 2023,
+    "title": "Set and setting predict psychopathology, wellbeing and meaningfulness of psychedelic experiences: a correlational study"
+   }
+  },
+  "Borkel et al., Expert Rev. Clin. Pharmacol. (2024)": {
+   "url": "https://doi.org/10.1080/17512433.2023.2295997",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Borkel",
+    "year": 2023,
+    "title": "Set and setting predict psychopathology, wellbeing and meaningfulness of psychedelic experiences: a correlational study"
+   }
+  },
+  "Borkel et al., Set and setting predict psychopathology, wellbeing and meaningfulness, Expert Rev Clin Pharmacol (2024)": {
+   "url": "https://doi.org/10.1080/17512433.2023.2295997",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Borkel",
+    "year": 2023,
+    "title": "Set and setting predict psychopathology, wellbeing and meaningfulness of psychedelic experiences: a correlational study"
+   }
+  },
+  "Bozarth, Murray & Wise (1989)": {
+   "url": "https://doi.org/10.1016/0091-3057(89)90490-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Bozarth",
+    "year": 1989,
+    "title": "Influence of housing conditions on the acquisition of intravenous heroin and cocaine self-administration in rats"
+   }
+  },
+  "Bozarth, Murray & Wise, Pharmacology Biochemistry and Behavior (1989)": {
+   "url": "https://doi.org/10.1016/0091-3057(89)90490-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Bozarth",
+    "year": 1989,
+    "title": "Influence of housing conditions on the acquisition of intravenous heroin and cocaine self-administration in rats"
+   }
+  },
+  "CBD Kunming-Montreal (2022)": {
+   "url": "https://www.cbd.int/gbf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Kunming-Montreal Global Biodiversity Framework"
+   }
+  },
+  "CBD Kunming-Montreal Framework (2022)": {
+   "url": "https://www.cbd.int/gbf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Kunming-Montreal Global Biodiversity Framework"
+   }
+  },
+  "Cao et al., Science (2022): 5-HT2A structural series": {
+   "url": "https://doi.org/10.1126/science.abl8615",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Cao",
+    "year": 2022,
+    "title": "Structure-based discovery of nonhallucinogenic psychedelic analogs"
+   }
+  },
+  "Carhart-Harris & Friston (2019)": {
+   "url": "https://doi.org/10.1124/pr.118.017160",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carhart-Harris",
+    "year": 2019,
+    "title": "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics"
+   }
+  },
+  "Carhart-Harris & Friston, Pharmacological Reviews (2019)": {
+   "url": "https://doi.org/10.1124/pr.118.017160",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carhart-Harris",
+    "year": 2019,
+    "title": "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics"
+   }
+  },
+  "Carhart-Harris & Friston, REBUS and the Anarchic Brain, Pharmacological Reviews (2019)": {
+   "url": "https://doi.org/10.1124/pr.118.017160",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carhart-Harris",
+    "year": 2019,
+    "title": "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics"
+   }
+  },
+  "Carhart-Harris et al., New England Journal of Medicine (2021)": {
+   "url": "https://doi.org/10.1056/nejmoa2032994",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carhart-Harris",
+    "year": 2021,
+    "title": "Trial of Psilocybin versus Escitalopram for Depression"
+   }
+  },
+  "Carhart-Harris et al., PNAS (2012)": {
+   "url": "https://doi.org/10.1073/pnas.1119598109",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carhart-Harris",
+    "year": 2012,
+    "title": "Neural correlates of the psychedelic state as determined by fMRI studies with psilocybin"
+   }
+  },
+  "Carod-Artal, Neurología (2015)": {
+   "url": "https://doi.org/10.1016/j.nrl.2011.07.003",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Carod-Artal",
+    "year": 2015,
+    "title": "Alucinógenos en las culturas precolombinas mesoamericanas"
+   }
+  },
+  "Chatterjee & Vartanian, Trends Cogn Sci (2014)": {
+   "url": "https://doi.org/10.1016/j.tics.2014.03.003",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Chatterjee",
+    "year": 2014,
+    "title": "Neuroaesthetics"
+   }
+  },
+  "Cherian et al., Nature Medicine (2024)": {
+   "url": "https://doi.org/10.1038/s41591-023-02705-w",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Cherian",
+    "year": 2024,
+    "title": "Magnesium-ibogaine therapy in veterans with traumatic brain injuries"
+   }
+  },
+  "Chwelos, Blewett, Smith & Hoffer, Quarterly Journal of Studies on Alcohol (1959)": {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13810249/",
+   "kind": "pubmed",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Chwelos",
+    "year": 1959,
+    "title": "Use of d-lysergic acid diethylamide in the treatment of alcoholism"
+   }
+  },
+  "Cifra & Pospíšil, J. Photochem. Photobiol. B (2014)": {
+   "url": "https://doi.org/10.1016/j.jphotobiol.2014.02.009",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Cifra",
+    "year": 2014,
+    "title": "Ultra-weak photon emission from biological samples: Definition, mechanisms, properties, detection and applications"
+   }
+  },
+  "Controlled Substances Act (1970)": {
+   "url": "https://www.law.cornell.edu/uscode/text/21/chapter-13",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "21 U.S. Code Chapter 13 - DRUG ABUSE PREVENTION AND CONTROL | U.S. Code | US Law | LII / Legal Information Institute"
+   }
+  },
+  "DOJ NPRM Cannabis Rescheduling (May 2024)": {
+   "url": "https://www.federalregister.gov/documents/2024/05/21/2024-11137/schedules-of-controlled-substances-rescheduling-of-marijuana",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Federal Register :: Schedules of Controlled Substances: Rescheduling of Marijuana"
+   }
+  },
+  "DOJ NPRM, Cannabis Rescheduling (May 2024)": {
+   "url": "https://www.federalregister.gov/documents/2024/05/21/2024-11137/schedules-of-controlled-substances-rescheduling-of-marijuana",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Federal Register :: Schedules of Controlled Substances: Rescheduling of Marijuana"
+   }
+  },
+  "Davis et al., Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder, JAMA Psychiatry (2021)": {
+   "url": "https://doi.org/10.1001/jamapsychiatry.2020.3285",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Davis",
+    "year": 2021,
+    "title": "Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder"
+   }
+  },
+  "Davis et al., J. Psychopharmacol. 34(9):1008-1020 (2020)": {
+   "url": "https://doi.org/10.1177/0269881120916143",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Davis",
+    "year": 2020,
+    "title": "Survey of entity encounter experiences occasioned by inhaled <i>N,N</i> -dimethyltryptamine: Phenomenology, interpretation, and enduring effects"
+   }
+  },
+  "Davis et al., JAMA Psychiatry (2021)": {
+   "url": "https://doi.org/10.1001/jamapsychiatry.2020.3285",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Davis",
+    "year": 2021,
+    "title": "Effects of Psilocybin-Assisted Therapy on Major Depressive Disorder"
+   }
+  },
+  "Dean et al., Scientific Reports (2019)": {
+   "url": "https://doi.org/10.1038/s41598-019-45812-w",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Dean",
+    "year": 2019,
+    "title": "Biosynthesis and Extracellular Concentrations of N,N-dimethyltryptamine (DMT) in Mammalian Brain"
+   }
+  },
+  "Devane et al., Science (1992), anandamide discovery": {
+   "url": "https://doi.org/10.1126/science.1470919",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Devane",
+    "year": 1992,
+    "title": "Isolation and Structure of a Brain Constituent That Binds to the Cannabinoid Receptor"
+   }
+  },
+  "Doblin, Dr. Leary's Concord Prison Experiment: a 34-year follow-up, J Psychoactive Drugs (1998)": {
+   "url": "https://doi.org/10.1080/02791072.1998.10399715",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Doblin",
+    "year": 1998,
+    "title": "Dr. Leary's Concord Prison Experiment: A 34-Year Follow-up Study"
+   }
+  },
+  "Doblin, Journal of Transpersonal Psychology (1991)": {
+   "url": "https://www.atpweb.org/jtparchive/trps-23-91-01-001.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Doblin, Pahnke's Good Friday Experiment: a long-term follow-up and methodological critique (PDF)"
+   }
+  },
+  "Dos Santos et al., Ther Adv Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/2045125316638008",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "dos Santos",
+    "year": 2016,
+    "title": "Antidepressive, anxiolytic, and antiaddictive effects of ayahuasca, psilocybin and lysergic acid diethylamide (LSD): a systematic review of clinical trials published in the last 25 years"
+   }
+  },
+  "Employment Division v. Smith (1990)": {
+   "url": "https://www.law.cornell.edu/supremecourt/text/494/872",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "EMPLOYMENT DIVISION, DEPARTMENT OF HUMAN RESOURCES OF OREGON, et al., Petitioners v. Alfred L. SMITH et al. | Supreme Court | US Law | LII / Legal Information Institute"
+   }
+  },
+  "FDA Psychopharmacologic Drugs Advisory Committee vote (June 2024)": {
+   "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-meeting-time-and-public-participation-information-june-4-2024-meeting-psychopharmacologic",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "UPDATED MEETING TIME AND PUBLIC PARTICIPATION INFORMATION: June 4, 2024: Meeting of the Psychopharmacologic Drugs Advisory Committee Meeting Announcement - 06/04/2024 | FDA"
+   }
+  },
+  "FDA advisory committee briefing documents, MDMA-assisted therapy application (June 2024)": {
+   "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-meeting-time-and-public-participation-information-june-4-2024-meeting-psychopharmacologic",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "UPDATED MEETING TIME AND PUBLIC PARTICIPATION INFORMATION: June 4, 2024: Meeting of the Psychopharmacologic Drugs Advisory Committee Meeting Announcement - 06/04/2024 | FDA"
+   }
+  },
+  "FDA advisory committee review of the MDMA-assisted therapy application (June 2024)": {
+   "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-meeting-time-and-public-participation-information-june-4-2024-meeting-psychopharmacologic",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "UPDATED MEETING TIME AND PUBLIC PARTICIPATION INFORMATION: June 4, 2024: Meeting of the Psychopharmacologic Drugs Advisory Committee Meeting Announcement - 06/04/2024 | FDA"
+   }
+  },
+  "FDA over-the-counter naloxone nasal spray approval (March 2023)": {
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-over-counter-naloxone-nasal-spray",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "FDA Approves First Over-the-Counter Naloxone Nasal Spray | FDA"
+   }
+  },
+  "Fabricant & Farnsworth, Environmental Health Perspectives (2001)": {
+   "url": "https://doi.org/10.1289/ehp.01109s169",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Fabricant",
+    "year": 2001,
+    "title": "The value of plants used in traditional medicine for drug discovery."
+   }
+  },
+  "Forstmann & Sagioglou, J Psychopharmacol (2017)": {
+   "url": "https://doi.org/10.1177/0269881117714049",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Forstmann",
+    "year": 2017,
+    "title": "Lifetime experience with (classic) psychedelics predicts pro-environmental behavior through an increase in nature relatedness"
+   }
+  },
+  "Frecska et al., Front Pharmacol (2016)": {
+   "url": "https://doi.org/10.3389/fphar.2016.00035",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Frecska",
+    "year": 2016,
+    "title": "The Therapeutic Potentials of Ayahuasca: Possible Effects against Various Diseases of Civilization"
+   }
+  },
+  "Gage & Sumnall, Addiction (2019)": {
+   "url": "https://doi.org/10.1111/add.14481",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gage",
+    "year": 2018,
+    "title": "Rat Park: How a rat paradise changed the narrative of addiction"
+   }
+  },
+  "Gagliano et al. (2014)": {
+   "url": "https://doi.org/10.1007/s00442-013-2873-7",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gagliano",
+    "year": 2014,
+    "title": "Experience teaches plants to learn faster and forget slower in environments where it matters"
+   }
+  },
+  "Gagliano et al., Oecologia (2014)": {
+   "url": "https://doi.org/10.1007/s00442-013-2873-7",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gagliano",
+    "year": 2014,
+    "title": "Experience teaches plants to learn faster and forget slower in environments where it matters"
+   }
+  },
+  "Gagliano et al., Scientific Reports (2016)": {
+   "url": "https://doi.org/10.1038/srep38427",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gagliano",
+    "year": 2016,
+    "title": "Learning by Association in Plants"
+   }
+  },
+  "Gasser et al., J Nervous and Mental Disease (2014)": {
+   "url": "https://doi.org/10.1097/nmd.0000000000000113",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gasser",
+    "year": 2014,
+    "title": "Safety and Efficacy of Lysergic Acid Diethylamide-Assisted Psychotherapy for Anxiety Associated With Life-threatening Diseases"
+   }
+  },
+  "Gonzales v. O Centro (2006)": {
+   "url": "https://www.law.cornell.edu/supct/html/04-1084.ZS.html",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "US Supreme Court Opinion: Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (No. 04-1084)"
+   }
+  },
+  "Gonzales v. O Centro (SCOTUS 2006)": {
+   "url": "https://www.law.cornell.edu/supct/html/04-1084.ZS.html",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "US Supreme Court Opinion: Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (No. 04-1084)"
+   }
+  },
+  "Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (2006)": {
+   "url": "https://www.law.cornell.edu/supct/html/04-1084.ZS.html",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "US Supreme Court Opinion: Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (No. 04-1084)"
+   }
+  },
+  "Gonzales v. O Centro Espirita SCOTUS (2006)": {
+   "url": "https://www.law.cornell.edu/supct/html/04-1084.ZS.html",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "US Supreme Court Opinion: Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (No. 04-1084)"
+   }
+  },
+  "Gonzales v. O Centro SCOTUS (2006)": {
+   "url": "https://www.law.cornell.edu/supct/html/04-1084.ZS.html",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "US Supreme Court Opinion: Gonzales v. O Centro Espirita Beneficente Uniao do Vegetal (No. 04-1084)"
+   }
+  },
+  "Griffiths et al. (2006)": {
+   "url": "https://doi.org/10.1007/s00213-006-0457-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2006,
+    "title": "Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance"
+   }
+  },
+  "Griffiths et al., J Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675513",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2016,
+    "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial"
+   }
+  },
+  "Griffiths et al., J Psychopharmacology (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675513",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2016,
+    "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial"
+   }
+  },
+  "Griffiths et al., J. Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675513",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2016,
+    "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial"
+   }
+  },
+  "Griffiths et al., J. Psychopharmacol. (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675513",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2016,
+    "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial"
+   }
+  },
+  "Griffiths et al., PLoS One (2019)": {
+   "url": "https://doi.org/10.1371/journal.pone.0214377",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2019,
+    "title": "Survey of subjective \"God encounter experiences\": Comparisons among naturally occurring experiences and those occasioned by the classic psychedelics psilocybin, LSD, ayahuasca, or DMT"
+   }
+  },
+  "Griffiths et al., Psilocybin can occasion mystical-type experiences, Psychopharmacology (2006)": {
+   "url": "https://doi.org/10.1007/s00213-006-0457-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2006,
+    "title": "Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance"
+   }
+  },
+  "Griffiths et al., Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer, J Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675513",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2016,
+    "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial"
+   }
+  },
+  "Griffiths et al., Psychopharmacology (2006)": {
+   "url": "https://doi.org/10.1007/s00213-006-0457-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Griffiths",
+    "year": 2006,
+    "title": "Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance"
+   }
+  },
+  "Gukasyan et al. (2022)": {
+   "url": "https://doi.org/10.1177/02698811211073759",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Gukasyan",
+    "year": 2022,
+    "title": "Efficacy and safety of psilocybin-assisted treatment for major depressive disorder: Prospective 12-month follow-up"
+   }
+  },
+  "Hadaway et al., Psychopharmacology (1979)": {
+   "url": "https://doi.org/10.1007/bf00431995",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Hadaway",
+    "year": 1979,
+    "title": "The effect of housing and gender on preference for morphine-sucrose solutions in rats"
+   }
+  },
+  "Hamill et al., Curr Neuropharmacol (2019)": {
+   "url": "https://doi.org/10.2174/1570159x16666180125095902",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Hamill",
+    "year": 2019,
+    "title": "Ayahuasca: Psychological and Physiologic Effects, Pharmacology and Potential Uses in Addiction and Mental Illness"
+   }
+  },
+  "Harmon & Loh, Language Documentation & Conservation (2010)": {
+   "url": "https://hdl.handle.net/10125/4474",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "The index of linguistic diversity: A new quantitative measure of trends in the status of the world's languages"
+   }
+  },
+  "Hartogsohn, Constructing drug effects: a history of set and setting, Drug Sci Policy Law (2017)": {
+   "url": "https://doi.org/10.1177/2050324516683325",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Hartogsohn",
+    "year": 2017,
+    "title": "Constructing drug effects: A history of set and setting"
+   }
+  },
+  "Hartogsohn, J Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116677852",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Hartogsohn",
+    "year": 2016,
+    "title": "Set and setting, psychedelics and the placebo response: An extra-pharmacological perspective on psychopharmacology"
+   }
+  },
+  "Holze et al., Biological Psychiatry (2023)": {
+   "url": "https://doi.org/10.1016/j.biopsych.2022.08.025",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Holze",
+    "year": 2023,
+    "title": "Lysergic Acid Diethylamide-Assisted Therapy in Patients With Anxiety With and Without a Life-Threatening Illness: A Randomized, Double-Blind, Placebo-Controlled Phase II Study"
+   }
+  },
+  "Hughes & Stevens, Br J Criminol (2010)": {
+   "url": "https://doi.org/10.1093/bjc/azq038",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Hughes",
+    "year": 2010,
+    "title": "What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?"
+   }
+  },
+  "Jiang et al., Cell (2026)": {
+   "url": "https://doi.org/10.1016/j.cell.2025.11.009",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Jiang",
+    "year": 2026,
+    "title": "Psilocybin triggers an activity-dependent rewiring of large-scale cortical networks"
+   }
+  },
+  "Johnson et al. (2008)": {
+   "url": "https://doi.org/10.1177/0269881108093587",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Johnson",
+    "year": 2008,
+    "title": "Human hallucinogen research: guidelines for safety"
+   }
+  },
+  "Johnson et al., Human hallucinogen research guidelines for safety, J Psychopharmacol (2008)": {
+   "url": "https://doi.org/10.1177/0269881108093587",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Johnson",
+    "year": 2008,
+    "title": "Human hallucinogen research: guidelines for safety"
+   }
+  },
+  "Johnson et al., J Psychopharmacol (2008), safety guidelines": {
+   "url": "https://doi.org/10.1177/0269881108093587",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Johnson",
+    "year": 2008,
+    "title": "Human hallucinogen research: guidelines for safety"
+   }
+  },
+  "Johnson et al., J. Psychopharmacol. (2008)": {
+   "url": "https://doi.org/10.1177/0269881108093587",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Johnson",
+    "year": 2008,
+    "title": "Human hallucinogen research: guidelines for safety"
+   }
+  },
+  "Karst et al., Nature Ecology & Evolution (2023)": {
+   "url": "https://doi.org/10.1038/s41559-023-01986-1",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Karst",
+    "year": 2023,
+    "title": "Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests"
+   }
+  },
+  "Kettner et al., International Journal of Environmental Research and Public Health (2019)": {
+   "url": "https://doi.org/10.3390/ijerph16245147",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Kettner",
+    "year": 2019,
+    "title": "From Egoism to Ecoism: Psychedelics Increase Nature Relatedness in a State-Mediated and Context-Dependent Manner"
+   }
+  },
+  "Kim et al., Cell (2020)": {
+   "url": "https://doi.org/10.1016/j.cell.2020.08.024",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Kim",
+    "year": 2020,
+    "title": "Structure of a Hallucinogen-Activated Gq-Coupled 5-HT2A Serotonin Receptor"
+   }
+  },
+  "Koob & Volkow, Lancet Psychiatry (2016)": {
+   "url": "https://doi.org/10.1016/s2215-0366(16)00104-8",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Koob",
+    "year": 2016,
+    "title": "Neurobiology of addiction: a neurocircuitry analysis"
+   }
+  },
+  "Koob & Volkow, Neuropsychopharmacol. (2010)": {
+   "url": "https://doi.org/10.1038/npp.2009.110",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Koob",
+    "year": 2009,
+    "title": "Neurocircuitry of Addiction"
+   }
+  },
+  "Krebs & Johansen, J Psychopharmacol (2012)": {
+   "url": "https://doi.org/10.1177/0269881112439253",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Krebs",
+    "year": 2012,
+    "title": "Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials"
+   }
+  },
+  "Krebs & Johansen, J. Psychopharmacol. (2012)": {
+   "url": "https://doi.org/10.1177/0269881112439253",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Krebs",
+    "year": 2012,
+    "title": "Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials"
+   }
+  },
+  "Krebs & Johansen, Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials, J Psychopharmacol (2012)": {
+   "url": "https://doi.org/10.1177/0269881112439253",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Krebs",
+    "year": 2012,
+    "title": "Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials"
+   }
+  },
+  "Kunming-Montreal Global Biodiversity Framework (2022)": {
+   "url": "https://www.cbd.int/gbf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Kunming-Montreal Global Biodiversity Framework"
+   }
+  },
+  "Lawrence et al., Scientific Reports 12:8562 (2022)": {
+   "url": "https://doi.org/10.1038/s41598-022-11999-8",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Lawrence",
+    "year": 2022,
+    "title": "Phenomenology and content of the inhaled N, N-dimethyltryptamine (N, N-DMT) experience"
+   }
+  },
+  "Ly et al., Cell Reports (2018)": {
+   "url": "https://doi.org/10.1016/j.celrep.2018.05.022",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ly",
+    "year": 2018,
+    "title": "Psychedelics Promote Structural and Functional Neural Plasticity"
+   }
+  },
+  "Lyons & Carhart-Harris, J Psychopharmacol (2018)": {
+   "url": "https://doi.org/10.1177/0269881117748902",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Lyons",
+    "year": 2018,
+    "title": "Increased nature relatedness and decreased authoritarian political views after psilocybin for treatment-resistant depression"
+   }
+  },
+  "MacLean et al., J Psychopharmacol (2011)": {
+   "url": "https://doi.org/10.1177/0269881111420188",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "MacLean",
+    "year": 2011,
+    "title": "Mystical experiences occasioned by the hallucinogen psilocybin lead to increases in the personality domain of openness"
+   }
+  },
+  "Markel, eLife (2020)": {
+   "url": "https://doi.org/10.7554/elife.57614",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Markel",
+    "year": 2020,
+    "title": "Lack of evidence for associative learning in pea plants"
+   }
+  },
+  "McKenna True Hallucinations (1993)": {
+   "url": "https://openlibrary.org/works/OL3360490W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "True hallucinations (Terence McKenna), Open Library"
+   }
+  },
+  "McKenna et al., Journal of Ethnopharmacology (1984), ayahuasca MAO mechanism": {
+   "url": "https://doi.org/10.1016/0378-8741(84)90003-5",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "McKenna",
+    "year": 1984,
+    "title": "Monoamine oxidase inhibitors in South American hallucinogenic plants: Tryptamine and β-carboline constituents of Ayahuasca"
+   }
+  },
+  "McKenna, Food of the Gods (1992)": {
+   "url": "https://openlibrary.org/works/OL278784W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Food of the Gods (Terence McKenna), Open Library"
+   }
+  },
+  "McKenna, T. Food of the Gods (1992)": {
+   "url": "https://openlibrary.org/works/OL278784W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Food of the Gods (Terence McKenna), Open Library"
+   }
+  },
+  "McKenna, T. True Hallucinations (1993)": {
+   "url": "https://openlibrary.org/works/OL3360490W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "True hallucinations (Terence McKenna), Open Library"
+   }
+  },
+  "McKenna, Terence. True Hallucinations: Being an Account of the Author's Extraordinary Adventures in the Devil's Paradise (1993)": {
+   "url": "https://openlibrary.org/works/OL3360490W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "True hallucinations (Terence McKenna), Open Library"
+   }
+  },
+  "McKenna, True Hallucinations (1993)": {
+   "url": "https://openlibrary.org/works/OL3360490W",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "True hallucinations (Terence McKenna), Open Library"
+   }
+  },
+  "Mechoulam & Parker, Annual Review of Psychology (2013)": {
+   "url": "https://doi.org/10.1146/annurev-psych-113011-143739",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Mechoulam",
+    "year": 2013,
+    "title": "The Endocannabinoid System and the Brain"
+   }
+  },
+  "Millière et al., Front. Psychol. (2018)": {
+   "url": "https://doi.org/10.3389/fpsyg.2018.01475",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Millière",
+    "year": 2018,
+    "title": "Psychedelics, Meditation, and Self-Consciousness"
+   }
+  },
+  "Mitchell et al., Nature Medicine (2021)": {
+   "url": "https://doi.org/10.1038/s41591-021-01336-3",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Mitchell",
+    "year": 2021,
+    "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study"
+   }
+  },
+  "Mitchell et al., Nature Medicine (2021), MDMA Phase 3": {
+   "url": "https://doi.org/10.1038/s41591-021-01336-3",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Mitchell",
+    "year": 2021,
+    "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study"
+   }
+  },
+  "Mithoefer et al., Lancet Psychiatry (2018)": {
+   "url": "https://doi.org/10.1016/s2215-0366(18)30135-4",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Mithoefer",
+    "year": 2018,
+    "title": "3,4-methylenedioxymethamphetamine (MDMA)-assisted psychotherapy for post-traumatic stress disorder in military veterans, firefighters, and police officers: a randomised, double-blind, dose-response, phase 2 clinical trial"
+   }
+  },
+  "Nagoya Protocol (2010)": {
+   "url": "https://www.cbd.int/abs/doc/protocol/nagoya-protocol-en.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Nagoya Protocol (PDF)"
+   }
+  },
+  "Nagoya Protocol (2010, in force 2014)": {
+   "url": "https://www.cbd.int/abs/doc/protocol/nagoya-protocol-en.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Nagoya Protocol (PDF)"
+   }
+  },
+  "Nagoya Protocol on ABS (2010, in force 2014)": {
+   "url": "https://www.cbd.int/abs/doc/protocol/nagoya-protocol-en.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Nagoya Protocol (PDF)"
+   }
+  },
+  "National Academies of Sciences, Health Effects of Cannabis (2017)": {
+   "url": "https://www.nationalacademies.org/publications/24625",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research | The National Academies Press"
+   }
+  },
+  "Newman & Cragg, J Natural Products (2020)": {
+   "url": "https://doi.org/10.1021/acs.jnatprod.9b01285",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Newman",
+    "year": 2020,
+    "title": "Natural Products as Sources of New Drugs over the Nearly Four Decades from 01/1981 to 09/2019"
+   }
+  },
+  "Nichols (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, D.E. Pharmacological Reviews 68(2) (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, D.E. Pharmacological Reviews 68(2):264-355 (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, D.E. Psychedelics. Pharmacological Reviews, 68(2) (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, Pharmacol. Rev. (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, Pharmacological Reviews (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Nichols, Pharmacological Reviews 68(2) (2016)": {
+   "url": "https://doi.org/10.1124/pr.115.011478",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Nichols",
+    "year": 2016,
+    "title": "Psychedelics"
+   }
+  },
+  "Noller et al. (2018)": {
+   "url": "https://doi.org/10.1080/00952990.2017.1310218",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Noller",
+    "year": 2017,
+    "title": "Ibogaine treatment outcomes for opioid dependence from a twelve-month follow-up observational study"
+   }
+  },
+  "Osmond & Smythies, J. Mental Sci. (1952)": {
+   "url": "https://doi.org/10.1192/bjp.98.411.309",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Osmond",
+    "year": 1952,
+    "title": "Schizophrenia: A New Approach"
+   }
+  },
+  "Osmond, Ann. N.Y. Acad. Sci. (1957)": {
+   "url": "https://doi.org/10.1111/j.1749-6632.1957.tb40738.x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Osmond",
+    "year": 1957,
+    "title": "A REVIEW OF THE CLINICAL EFFECTS OF PSYCHOTOMIMETIC AGENTS"
+   }
+  },
+  "Osmond, H. A Review of the Clinical Effects of Psychotomimetic Agents, Ann. NY Acad. Sci. (1957)": {
+   "url": "https://doi.org/10.1111/j.1749-6632.1957.tb40738.x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Osmond",
+    "year": 1957,
+    "title": "A REVIEW OF THE CLINICAL EFFECTS OF PSYCHOTOMIMETIC AGENTS"
+   }
+  },
+  "Palhano-Fontes et al., Psychological Medicine (2019)": {
+   "url": "https://doi.org/10.1017/s0033291718001356",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Palhano-Fontes",
+    "year": 2018,
+    "title": "Rapid antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression: a randomized placebo-controlled trial"
+   }
+  },
+  "Petrie (1996)": {
+   "url": "https://doi.org/10.2466/pr0.1996.78.2.391",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Petrie",
+    "year": 1996,
+    "title": "Environment is not the Most Important Variable in Determining Oral Morphine Consumption in Wistar Rats"
+   }
+  },
+  "Petrie, Psychological Reports (1996)": {
+   "url": "https://doi.org/10.2466/pr0.1996.78.2.391",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Petrie",
+    "year": 1996,
+    "title": "Environment is not the Most Important Variable in Determining Oral Morphine Consumption in Wistar Rats"
+   }
+  },
+  "Popp et al., Cell Biophysics (1984)": {
+   "url": "https://doi.org/10.1007/bf02788579",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Popp",
+    "year": 1984,
+    "title": "Biophoton emission"
+   }
+  },
+  "Preller & Vollenweider, Front Psychiatry (2019)": {
+   "url": "https://doi.org/10.3389/fpsyt.2019.00881",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Preller",
+    "year": 2019,
+    "title": "Modulation of Social Cognition via Hallucinogens and “Entactogens”"
+   }
+  },
+  "RFRA (1993)": {
+   "url": "https://www.law.cornell.edu/uscode/text/42/chapter-21B",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "42 U.S. Code Chapter 21B - RELIGIOUS FREEDOM RESTORATION | U.S. Code | US Law | LII / Legal Information Institute"
+   }
+  },
+  "Raichle et al., PNAS (2001)": {
+   "url": "https://doi.org/10.1073/pnas.98.2.676",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Raichle",
+    "year": 2001,
+    "title": "A default mode of brain function"
+   }
+  },
+  "Robins et al., Vietnam Veterans Three Years After Vietnam, Am J Addict (2010 reprint)": {
+   "url": "https://doi.org/10.1111/j.1521-0391.2010.00046.x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Robins",
+    "year": 2010,
+    "title": "Vietnam Veterans Three Years after Vietnam: How Our Study Changed Our View of Heroin"
+   }
+  },
+  "Robins, Addiction (1993)": {
+   "url": "https://doi.org/10.1111/j.1360-0443.1993.tb02123.x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "ROBINS",
+    "year": 1993,
+    "title": "Vietnam veterans' rapid recovery from heroin addiction: a fluke or normal expectation?"
+   }
+  },
+  "Robins, Helzer & Davis, Archives of General Psychiatry (1975)": {
+   "url": "https://doi.org/10.1001/archpsyc.1975.01760260019001",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Robins",
+    "year": 1975,
+    "title": "Narcotic Use in Southeast Asia and Afterward"
+   }
+  },
+  "Ross et al., J Psychopharmacology (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675512",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ross",
+    "year": 2016,
+    "title": "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial"
+   }
+  },
+  "Ross et al., J. Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675512",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ross",
+    "year": 2016,
+    "title": "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial"
+   }
+  },
+  "Ross et al., J. Psychopharmacol. (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675512",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ross",
+    "year": 2016,
+    "title": "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial"
+   }
+  },
+  "Ross et al., Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer, J Psychopharmacol (2016)": {
+   "url": "https://doi.org/10.1177/0269881116675512",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ross",
+    "year": 2016,
+    "title": "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial"
+   }
+  },
+  "Ruck et al. Entheogens J. Psychedelic Drugs (1979)": {
+   "url": "https://doi.org/10.1080/02791072.1979.10472098",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ruck",
+    "year": 1979,
+    "title": "Entheogens"
+   }
+  },
+  "Ruck et al., J. Psychedelic Drugs (1979)": {
+   "url": "https://doi.org/10.1080/02791072.1979.10472098",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ruck",
+    "year": 1979,
+    "title": "Entheogens"
+   }
+  },
+  "Ruck et al., Journal of Psychedelic Drugs (1979)": {
+   "url": "https://doi.org/10.1080/02791072.1979.10472098",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Ruck",
+    "year": 1979,
+    "title": "Entheogens"
+   }
+  },
+  "Sewell et al., Neurology (2006)": {
+   "url": "https://doi.org/10.1212/01.wnl.0000219761.05466.43",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Sewell",
+    "year": 2006,
+    "title": "Response of cluster headache to psilocybin and LSD"
+   }
+  },
+  "Sewell, Halpern & Pope, Neurology (2006)": {
+   "url": "https://doi.org/10.1212/01.wnl.0000219761.05466.43",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Sewell",
+    "year": 2006,
+    "title": "Response of cluster headache to psilocybin and LSD"
+   }
+  },
+  "Shao et al. (2021)": {
+   "url": "https://doi.org/10.1016/j.neuron.2021.06.008",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Shao",
+    "year": 2021,
+    "title": "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo"
+   }
+  },
+  "Shao et al. 2021": {
+   "url": "https://doi.org/10.1016/j.neuron.2021.06.008",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Shao",
+    "year": 2021,
+    "title": "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo"
+   }
+  },
+  "Shao et al., Neuron (2021)": {
+   "url": "https://doi.org/10.1016/j.neuron.2021.06.008",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Shao",
+    "year": 2021,
+    "title": "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo"
+   }
+  },
+  "Shao et al., Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo, Neuron (2021)": {
+   "url": "https://doi.org/10.1016/j.neuron.2021.06.008",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Shao",
+    "year": 2021,
+    "title": "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo"
+   }
+  },
+  "Simard et al., Nature (1997)": {
+   "url": "https://doi.org/10.1038/41557",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Simard",
+    "year": 1997,
+    "title": "Net transfer of carbon between ectomycorrhizal tree species in the field"
+   }
+  },
+  "Sommer, Robert. In Memoriam: Humphry Osmond. J. Environmental Psychology (2004)": {
+   "url": "https://doi.org/10.1016/j.jenvp.2004.03.001",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Sommer",
+    "year": 2004,
+    "title": "In memoriam: Humphry Osmond"
+   }
+  },
+  "Stanford ibogaine study (Cherian et al., Nature Medicine, 2024)": {
+   "url": "https://doi.org/10.1038/s41591-023-02705-w",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Cherian",
+    "year": 2024,
+    "title": "Magnesium-ibogaine therapy in veterans with traumatic brain injuries"
+   }
+  },
+  "Stanford ibogaine trial (Cherian et al., Nature Medicine 2024)": {
+   "url": "https://doi.org/10.1038/s41591-023-02705-w",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Cherian",
+    "year": 2024,
+    "title": "Magnesium-ibogaine therapy in veterans with traumatic brain injuries"
+   }
+  },
+  "Strassman et al., Arch. Gen. Psychiatry (1994)": {
+   "url": "https://doi.org/10.1001/archpsyc.1994.03950020022002",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Strassman",
+    "year": 1994,
+    "title": "Dose-Response Study of N,N-Dimethyltryptamine in Humans"
+   }
+  },
+  "Texas SB 2308 (2025)": {
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2308",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "89(R) History for SB 2308 | Texas Legislature Online"
+   }
+  },
+  "Texas SB 2308 (ibogaine research, 2025)": {
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2308",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "89(R) History for SB 2308 | Texas Legislature Online"
+   }
+  },
+  "Timmermann et al. (2023)": {
+   "url": "https://doi.org/10.1073/pnas.2218949120",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Timmermann",
+    "year": 2023,
+    "title": "Human brain effects of DMT assessed via EEG-fMRI"
+   }
+  },
+  "Timmermann et al., PNAS 120(13) (2023)": {
+   "url": "https://doi.org/10.1073/pnas.2218949120",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Timmermann",
+    "year": 2023,
+    "title": "Human brain effects of DMT assessed via EEG-fMRI"
+   }
+  },
+  "Torres, J. Psychedelic Studies (2019)": {
+   "url": "https://doi.org/10.1556/2054.2018.015",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Torres",
+    "year": 2019,
+    "title": "The use of psychoactive plants by ancient indigenous populations of the North Andes"
+   }
+  },
+  "Trump Executive Order, December 2025": {
+   "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23846/increasing-medical-marijuana-and-cannabidiol-research",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Federal Register :: Increasing Medical Marijuana and Cannabidiol Research"
+   }
+  },
+  "Tupper, Global Networks (2009)": {
+   "url": "https://doi.org/10.1111/j.1471-0374.2009.00245.x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "TUPPER",
+    "year": 2008,
+    "title": "Ayahuasca healing beyond the Amazon: the globalization of a traditional indigenous entheogenic practice"
+   }
+  },
+  "UNDRIP Article 31 (2007)": {
+   "url": "https://www.un.org/development/desa/indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Declaration on the Rights of Indigenous Peoples (PDF)"
+   }
+  },
+  "UNDRIP Articles 11, 31 (2007)": {
+   "url": "https://www.un.org/development/desa/indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Declaration on the Rights of Indigenous Peoples (PDF)"
+   }
+  },
+  "Vargas et al. (2023)": {
+   "url": "https://doi.org/10.1126/science.adf0435",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Vargas",
+    "year": 2023,
+    "title": "Psychedelics promote neuroplasticity through the activation of intracellular 5-HT2A receptors"
+   }
+  },
+  "Vollenweider & Preller, Nat Rev Neurosci (2020)": {
+   "url": "https://doi.org/10.1038/s41583-020-0367-2",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Vollenweider",
+    "year": 2020,
+    "title": "Psychedelic drugs: neurobiology and potential for treatment of psychiatric disorders"
+   }
+  },
+  "Wacker et al., Cell (2017)": {
+   "url": "https://doi.org/10.1016/j.cell.2016.12.033",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Wacker",
+    "year": 2017,
+    "title": "Crystal Structure of an LSD-Bound Human Serotonin Receptor"
+   }
+  },
+  "Wacker et al., Crystal Structure of an LSD-Bound Human Serotonin Receptor, Cell (2017)": {
+   "url": "https://doi.org/10.1016/j.cell.2016.12.033",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Wacker",
+    "year": 2017,
+    "title": "Crystal Structure of an LSD-Bound Human Serotonin Receptor"
+   }
+  },
+  "Wikipedia Cluster headache": {
+   "url": "https://en.wikipedia.org/wiki/Cluster_headache",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Cluster headache - Wikipedia"
+   }
+  },
+  "Wikipedia Entheogen": {
+   "url": "https://en.wikipedia.org/wiki/Entheogen",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Entheogen - Wikipedia"
+   }
+  },
+  "Wikipedia Legal status of psychedelic drugs in the United States": {
+   "url": "https://en.wikipedia.org/wiki/Legal_status_of_psychedelic_drugs_in_the_United_States",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Legal status of psychedelic drugs in the United States - Wikipedia"
+   }
+  },
+  "Wikipedia Psilocybin Decriminalization in the United States": {
+   "url": "https://en.wikipedia.org/wiki/Psilocybin_decriminalization_in_the_United_States",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Psilocybin decriminalization in the United States - Wikipedia"
+   }
+  },
+  "Wikipedia Psilocybin decriminalization in the United States": {
+   "url": "https://en.wikipedia.org/wiki/Psilocybin_decriminalization_in_the_United_States",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Psilocybin decriminalization in the United States - Wikipedia"
+   }
+  },
+  "Wikipedia, Alan Watts": {
+   "url": "https://en.wikipedia.org/wiki/Alan_Watts",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Alan Watts - Wikipedia"
+   }
+  },
+  "Wikipedia, Albert Hofmann": {
+   "url": "https://en.wikipedia.org/wiki/Albert_Hofmann",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Albert Hofmann - Wikipedia"
+   }
+  },
+  "Wikipedia, Chiribiquete National Park": {
+   "url": "https://en.wikipedia.org/wiki/Chiribiquete_National_Park",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Chiribiquete National Park - Wikipedia"
+   }
+  },
+  "Wikipedia, Dennis McKenna": {
+   "url": "https://en.wikipedia.org/wiki/Dennis_McKenna",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Dennis McKenna - Wikipedia"
+   }
+  },
+  "Wikipedia, Harm Reduction": {
+   "url": "https://en.wikipedia.org/wiki/Harm_reduction",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Harm reduction - Wikipedia"
+   }
+  },
+  "Wikipedia, Harry J. Anslinger": {
+   "url": "https://en.wikipedia.org/wiki/Harry_J._Anslinger",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Harry J. Anslinger - Wikipedia"
+   }
+  },
+  "Wikipedia, Hemp for Victory": {
+   "url": "https://en.wikipedia.org/wiki/Hemp_for_Victory",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Hemp for Victory - Wikipedia"
+   }
+  },
+  "Wikipedia, History of LSD": {
+   "url": "https://en.wikipedia.org/wiki/History_of_LSD",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "History of LSD - Wikipedia"
+   }
+  },
+  "Wikipedia, Humphry Osmond": {
+   "url": "https://en.wikipedia.org/wiki/Humphry_Osmond",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Humphry Osmond - Wikipedia"
+   }
+  },
+  "Wikipedia, Island (Huxley novel)": {
+   "url": "https://en.wikipedia.org/wiki/Island_(Huxley_novel)",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Island (Huxley novel) - Wikipedia"
+   }
+  },
+  "Wikipedia, Jack Herer": {
+   "url": "https://en.wikipedia.org/wiki/Jack_Herer",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Jack Herer - Wikipedia"
+   }
+  },
+  "Wikipedia, Jeremy Narby": {
+   "url": "https://en.wikipedia.org/wiki/Jeremy_Narby",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Jeremy Narby - Wikipedia"
+   }
+  },
+  "Wikipedia, Lee Robins": {
+   "url": "https://en.wikipedia.org/wiki/Lee_Robins",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Lee Robins - Wikipedia"
+   }
+  },
+  "Wikipedia, Maria Sabina": {
+   "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Sabina",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "María Sabina - Wikipedia"
+   }
+  },
+  "Wikipedia, Marihuana Tax Act of 1937": {
+   "url": "https://en.wikipedia.org/wiki/Marihuana_Tax_Act_of_1937",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Marihuana Tax Act of 1937 - Wikipedia"
+   }
+  },
+  "Wikipedia, Mescaline": {
+   "url": "https://en.wikipedia.org/wiki/Mescaline",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Mescaline - Wikipedia"
+   }
+  },
+  "Wikipedia, Native American Church": {
+   "url": "https://en.wikipedia.org/wiki/Native_American_Church",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Native American Church - Wikipedia"
+   }
+  },
+  "Wikipedia, Oscar Janiger": {
+   "url": "https://en.wikipedia.org/wiki/Oscar_Janiger",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Oscar Janiger - Wikipedia"
+   }
+  },
+  "Wikipedia, R. Gordon Wasson": {
+   "url": "https://en.wikipedia.org/wiki/R._Gordon_Wasson",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "R. Gordon Wasson - Wikipedia"
+   }
+  },
+  "Wikipedia, Richard Evans Schultes": {
+   "url": "https://en.wikipedia.org/wiki/Richard_Evans_Schultes",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Richard Evans Schultes - Wikipedia"
+   }
+  },
+  "Wikipedia, Stanislav Grof": {
+   "url": "https://en.wikipedia.org/wiki/Stanislav_Grof",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Stanislav Grof - Wikipedia"
+   }
+  },
+  "Wikipedia, Stoned Ape Theory": {
+   "url": "https://en.wikipedia.org/wiki/Stoned_ape_theory",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Stoned ape theory - Wikipedia"
+   }
+  },
+  "Wikipedia, Terence McKenna": {
+   "url": "https://en.wikipedia.org/wiki/Terence_McKenna",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "Terence McKenna - Wikipedia"
+   }
+  },
+  "Wikipedia, The Doors of Perception": {
+   "url": "https://en.wikipedia.org/wiki/The_Doors_of_Perception",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "The Doors of Perception - Wikipedia"
+   }
+  },
+  "Wikipedia, The Emperor Wears No Clothes": {
+   "url": "https://en.wikipedia.org/wiki/The_Emperor_Wears_No_Clothes",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "The Emperor Wears No Clothes - Wikipedia"
+   }
+  },
+  "Wikipedia, War of 1812": {
+   "url": "https://en.wikipedia.org/wiki/War_of_1812",
+   "kind": "url",
+   "verified": "2026-10-13",
+   "matched": {
+    "title": "War of 1812 - Wikipedia"
+   }
+  },
+  "Wynberg & Laird, Trends in Biotechnology (2018)": {
+   "url": "https://doi.org/10.1016/j.tibtech.2017.09.002",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Wynberg",
+    "year": 2018,
+    "title": "Fast Science and Sluggish Policy: The Herculean Task of Regulating Biodiscovery"
+   }
+  },
+  "Yaden & Griffiths (2021)": {
+   "url": "https://doi.org/10.1021/acsptsci.0c00194",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Yaden",
+    "year": 2020,
+    "title": "The Subjective Effects of Psychedelics Are Necessary for Their Enduring Therapeutic Effects"
+   }
+  },
+  "Yaden & Griffiths, ACS Pharmacol Transl Sci (2021)": {
+   "url": "https://doi.org/10.1021/acsptsci.0c00194",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Yaden",
+    "year": 2020,
+    "title": "The Subjective Effects of Psychedelics Are Necessary for Their Enduring Therapeutic Effects"
+   }
+  },
+  "Yaden et al., The Varieties of Self-Transcendent Experience, Review of General Psychology (2017)": {
+   "url": "https://doi.org/10.1037/gpr0000102",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Yaden",
+    "year": 2017,
+    "title": "The Varieties of Self-Transcendent Experience"
+   }
+  },
+  "Yanakieva et al., Psychopharmacology (2019)": {
+   "url": "https://doi.org/10.1007/s00213-018-5119-x",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Yanakieva",
+    "year": 2018,
+    "title": "The effects of microdose LSD on time perception: a randomised, double-blind, placebo-controlled trial"
+   }
+  },
+  "Zhao et al. (2024)": {
+   "url": "https://doi.org/10.1177/02698811241249436",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Zhao",
+    "year": 2024,
+    "title": "Psilocybin promotes neuroplasticity and induces rapid and sustained antidepressant-like effects in mice"
+   }
+  },
+  "Zhao et al., J Psychopharmacol (2024)": {
+   "url": "https://doi.org/10.1177/02698811241249436",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "Zhao",
+    "year": 2024,
+    "title": "Psilocybin promotes neuroplasticity and induces rapid and sustained antidepressant-like effects in mice"
+   }
+  },
+  "van der Werf, Euphytica (2004)": {
+   "url": "https://doi.org/10.1007/s10681-004-4750-2",
+   "kind": "doi",
+   "verified": "2026-10-13",
+   "matched": {
+    "firstAuthor": "van der Werf",
+    "year": 2004,
+    "title": "Life Cycle Analysis of field production of fibre hemp, the effect of production practices on environmental impacts"
+   }
+  }
+ }
+}

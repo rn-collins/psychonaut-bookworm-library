@@ -2,9 +2,9 @@
  "note": "Withheld records are counted by reason and not listed. Their ids, titles, excerpts and sources are kept in the source repository.",
  "corpora": {
   "writing": {
-   "count": 17,
+   "count": 12,
    "byReason": {
-    "direct quotation lacks deterministic source mapping": 16,
+    "direct quotation lacks deterministic source mapping": 11,
     "missing item-level source": 1
    }
   },

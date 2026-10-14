@@ -106,6 +106,16 @@ jobs:
     full = json.load(open(os.path.join(ROOT, "data", "library.json"), encoding="utf-8"))
     write_json(os.path.join(out, "data", "library.json"), site.gate(full, releases, today))
 
+    # Citation links: only the entries whose citation occurs in the exported library, so the map
+    # never carries a string from a record that is not released. The site built from this edition
+    # links exactly the same citations as the source repository's build.
+    links_path = os.path.join(ROOT, "data", "citation-links.json")
+    if os.path.exists(links_path):
+        links_doc = json.load(open(links_path, encoding="utf-8"))
+        units = site.citation_units(site.gate(full, releases, today))
+        links_doc["links"] = {k: v for k, v in links_doc["links"].items() if k in units}
+        write_json(os.path.join(out, "data", "citation-links.json"), links_doc)
+
     # Releases: released rows only.
     # One row per line, the layout build/sync_releases.py writes and checks for.
     rows = [row for row in json.load(open(os.path.join(ROOT, "data", "releases.json"), encoding="utf-8"))

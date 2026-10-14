@@ -130,6 +130,91 @@ def paras(text):
     return [p.strip() for p in re.split(r"\n\s*\n", text or "") if p.strip()]
 
 
+# ---------------------------------------------------------- citation links
+# data/citation-links.json maps a citation, written exactly as it appears in
+# data/library.json, to the place it can be checked. A citation with no entry is
+# printed as plain text: no link is ever guessed. A source string that joins
+# several citations with "; " is split there (outside brackets and parentheses)
+# and each part is looked up on its own. build/test_release_gate.py checks the file.
+CITATION_LINKS_PATH = os.path.join(ROOT, "data", "citation-links.json")
+CITATION_LINKS = {}
+CITATION_KINDS = ("doi", "pubmed", "url")
+
+
+def load_citation_links(path=CITATION_LINKS_PATH):
+    """Read the citation map and refuse anything malformed. A missing file means no links."""
+    if not os.path.exists(path):
+        return {}
+    links = json.load(open(path, encoding="utf-8")).get("links", {})
+    problems = []
+    for text, link in links.items():
+        url = link.get("url", "")
+        if link.get("kind") not in CITATION_KINDS:
+            problems.append(f"{text[:60]!r}: kind must be one of {', '.join(CITATION_KINDS)}")
+        if not re.match(r"^https://[^\s\"<>]+$", url):
+            problems.append(f"{text[:60]!r}: url must be an https address")
+        if not DATE_RE.match(link.get("verified", "")):
+            problems.append(f"{text[:60]!r}: verified must be YYYY-MM-DD")
+    if problems:
+        raise SystemExit(f"{path} is invalid:\n  " + "\n  ".join(problems))
+    return links
+
+
+def citation_spans(text):
+    """The citations inside one source string, as (start, end) offsets. The string is split
+    at "; " when that is not inside square brackets or parentheses."""
+    spans, depth, start, i = [], 0, 0, 0
+    while i < len(text):
+        ch = text[i]
+        if ch in "[(":
+            depth += 1
+        elif ch in "])":
+            depth = max(0, depth - 1)
+        if depth == 0 and text.startswith("; ", i):
+            spans.append((start, i))
+            start, i = i + 2, i + 2
+            continue
+        i += 1
+    spans.append((start, len(text)))
+    return [(a, b) for a, b in spans if text[a:b].strip()]
+
+
+CITATION_FIELDS = ("sources", "citation", "source", "claimSource", "requiredReading")
+
+
+def citation_units(library):
+    """Every citation string in the citation fields of a library, whole and split into the
+    parts cite() looks up. Used to check, and to export, the citation map."""
+    found = set()
+    for items in library.values():
+        if not isinstance(items, list):
+            continue
+        for x in items:
+            for f in CITATION_FIELDS:
+                v = x.get(f)
+                for s in ([v] if isinstance(v, str) else v if isinstance(v, list) else []):
+                    if isinstance(s, str) and s.strip():
+                        found.add(s)
+                        found.update(s[a:b] for a, b in citation_spans(s))
+    return found
+
+
+def cite(text):
+    """HTML for a citation string: escaped text, with each part that has an entry in
+    data/citation-links.json wrapped in a link to its source."""
+    text = "" if text is None else str(text)
+    out, pos = [], 0
+    for a, b in citation_spans(text):
+        link = CITATION_LINKS.get(text[a:b])
+        if link:
+            out.append(e(text[pos:a]))
+            out.append(f'<a class="cite-link" href="{e(link["url"])}" rel="noopener" '
+                       f'data-cite="{e(link["kind"])}">{e(text[a:b])}</a>')
+            pos = b
+    out.append(e(text[pos:]))
+    return "".join(out)
+
+
 def prose(text, cls=""):
     c = f' class="{cls}"' if cls else ""
     return "".join(f"<p{c}>{e(p)}</p>" for p in paras(text))
@@ -428,7 +513,7 @@ def article(p, i, page=False):
     srchtml = ""
     if src:
         srchtml = ('<h4 class="card-label">Sources</h4><ul class="src-list">'
-                   + "".join(f"<li>{e(s)}</li>" for s in src) + "</ul>")
+                   + "".join(f"<li>{cite(s)}</li>" for s in src) + "</ul>")
     return (
         f'<details class="art"{" open" if page else ""} id="draft-{e(p["id"])}" data-obj="Editorial draft" '
         f'data-book="{e(p.get("book",""))}" data-bookslug="{e(p.get("bookSlug",""))}" '
@@ -544,7 +629,7 @@ def tvn_html(t, i, page=False):
             f'<span class="mono" style="color:{col}">{e(lab)}</span></div>'
             f'<div class="tvn-now">{e(t.get("nowAssessment") or t.get("nowEvidence") or "")}</div>'
             + ('<h4 class="card-label">Sources</h4><ul class="src-list">'
-               + "".join(f"<li>{e(s)}</li>" for s in src) + "</ul>" if src else "")
+               + "".join(f"<li>{cite(s)}</li>" for s in src) + "</ul>" if src else "")
             + ("" if page else queue_button(f"then:{i}") + permalink(rid("thenVsNow", t)))
             + '</div></div></article>')
 
@@ -572,7 +657,7 @@ def fc_html(fc, i, page=False):
             f'<td><div class="fc-q">{e(fc.get("front",""))}</div>'
             f'<div class="fc-cite">{e(fc.get("category",""))}</div></td>'
             f'<td><div class="fc-a">{e(fc.get("back",""))}</div>'
-            f'<div class="fc-cite">{e(fc.get("citation","") or "no citation recorded")}</div></td>'
+            f'<div class="fc-cite">{cite(fc.get("citation","")) if fc.get("citation") else "no citation recorded"}</div></td>'
             f'<td><span class="fc-diff" style="background:{DIFF_COLOR.get(fc.get("difficulty"),"var(--muted)")}">'
             f'{e(fc.get("difficulty",""))}</span>'
             + ("" if page else queue_button(f"card:{i}") + permalink(rid("flashcards", fc)))
@@ -622,7 +707,7 @@ def bridge_html(b, page=False):
             f'<p class="bridge-premise" style="padding-top:1rem">{e(b.get("premise",""))}</p>'
             f'<div class="bridge-body">{"".join(f"<p>{e(x)}</p>" for x in paras(b.get("body")))}'
             + ('<h4 class="card-label">Sources</h4><ul class="src-list">'
-               + "".join(f"<li>{e(s)}</li>" for s in src) + "</ul>" if src else "")
+               + "".join(f"<li>{cite(s)}</li>" for s in src) + "</ul>" if src else "")
             + ("" if page else permalink(rid("bridges", b)))
             + '</div></article>')
 
@@ -688,10 +773,10 @@ def ann_html(a, i, page=False):
             f'<h3 class="ann-claim">{e(a.get("claim",""))}</h3></div>'
             '<div class="ann-grid">'
             f'<div class="ann-col"><div class="ann-col-label">Claim source</div>'
-            f'{e(a.get("claimSource",""))}</div>'
+            f'{cite(a.get("claimSource",""))}</div>'
             '<div class="ann-col"><div class="ann-col-label">Current evidence &middot; confidence: '
             f'{e(a.get("confidence",""))}</div>{e(a.get("currentEvidence",""))}'
-            + (f'<div class="ann-col-label" style="margin-top:.6rem">Citation</div>{e(a["citation"])}'
+            + (f'<div class="ann-col-label" style="margin-top:.6rem">Citation</div>{cite(a["citation"])}'
                if a.get("citation") else "")
             + ("" if page else queue_button(f"annotation:{i}") + permalink(rid("annotations", a)))
             + '</div></div></article>')
@@ -738,7 +823,7 @@ def nlm_html(n, page=False):
                if (n.get("sourceMaterial") or "").strip() else
                '<p class="card-body"><strong>Source material pending review.</strong> The sources this brief names are listed below.</p>')
             + ('<h4 class="card-label">Sources</h4><ul class="src-list">'
-               + "".join(f"<li>{e(s)}</li>" for s in n["sources"]) + "</ul>" if n.get("sources") else "")
+               + "".join(f"<li>{cite(s)}</li>" for s in n["sources"]) + "</ul>" if n.get("sources") else "")
             + 
             f'<div class="nlm-qs"><h4 class="card-label">Focus questions</h4><ol style="list-style:none;padding:0;margin:0">{qs}</ol></div>'
             + (f'<div class="nlm-guest">Suggested guests: {e(n["suggestedGuests"])}</div>'
@@ -810,7 +895,7 @@ def mod_html(m, D, facts, page=False):
             f'<li style="font-family:inherit;font-size:0.85rem;color:var(--ink);'
             f'margin-bottom:.5rem"><strong>{e(c["front"])}</strong><br>'
             f'<span style="color:var(--muted)">{e(c["back"])}</span>'
-            + (f'<br><span class="fc-cite">{e(c["citation"])}</span>' if c.get("citation") else "")
+            + (f'<br><span class="fc-cite">{cite(c["citation"])}</span>' if c.get("citation") else "")
             + f' <a class="mono" href="#flashcards">see all cards</a></li>'
             for c in mod_fc) + '</ul>')
     if mod_cs:
@@ -820,7 +905,7 @@ def mod_html(m, D, facts, page=False):
             f'{VERDICT_COLOR.get(c.get("verdict"),"var(--muted)")}">'
             f'{e(verdict_label(c.get("verdict")))}</span></p>'
             f'<p style="font-size:.85rem;line-height:1.7;color:var(--muted)">{e(c.get("explanation",""))}</p>'
-            f'<p class="fc-cite">{e(c.get("source",""))}</p></details>'
+            f'<p class="fc-cite">{cite(c.get("source",""))}</p></details>'
             for c in mod_cs))
     tools.append(
         '<p class="held-note">The cards and claims above are the whole of this module\u2019s '
@@ -961,7 +1046,7 @@ def claim_html(c, page=False):
             f'{nuance} <span class="mono">{e(c.get("book",""))}</span></p>'
             f'<p style="font-size:.85rem;line-height:1.7;color:var(--muted)">'
             f'{e(c.get("explanation",""))}</p>'
-            f'<p class="fc-cite">{e(c.get("source",""))}</p>'
+            f'<p class="fc-cite">{cite(c.get("source",""))}</p>'
             + ("" if page else permalink(rid("claimSorter", c)))
             + '</details>')
 
@@ -1001,7 +1086,7 @@ def edu_html(m, page=False):
             + "".join(f'<p class="card-body"><strong>{e(s.get("section",""))}</strong>: '
                       f'{e(s.get("content",""))}</p>' for s in (m.get("outline") or []))
             + ('<h4 class="card-label">Required reading</h4><ul class="src-list">'
-               + "".join(f"<li>{e(s)}</li>" for s in m["requiredReading"]) + "</ul>"
+               + "".join(f"<li>{cite(s)}</li>" for s in m["requiredReading"]) + "</ul>"
                if m.get("requiredReading") else "")
             + ("" if page else permalink(rid("eduModules", m)))
             + '</article>')
@@ -1437,6 +1522,8 @@ def main(argv=None):
     ap.add_argument("--out", default=os.path.join(ROOT, "dist"))
     ap.add_argument("--releases", default=os.path.join(ROOT, "data", "releases.json"))
     ap.add_argument("--date", help="build as of this Honolulu date, YYYY-MM-DD")
+    ap.add_argument("--citation-links", default=CITATION_LINKS_PATH,
+                    help="citation map to link sources with (default data/citation-links.json)")
     ap.add_argument("--released-ids", action="store_true",
                     help="print the ids released as of the date, one per line, and exit")
     args = ap.parse_args(argv)
@@ -1454,6 +1541,8 @@ def main(argv=None):
         print(f"note: {len(unknown)} library records have no entry in releases.json and stay "
               f"hidden: {', '.join(unknown[:10])}", file=sys.stderr)
     D = gate(full, releases, today)
+    CITATION_LINKS.clear()
+    CITATION_LINKS.update(load_citation_links(args.citation_links))
     manifest = json.load(open(os.path.join(ROOT, "provenance", "manifest.json"), encoding="utf-8"))
 
     out_dir = os.path.abspath(args.out)

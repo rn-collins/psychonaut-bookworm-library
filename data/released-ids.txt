@@ -234,6 +234,7 @@ thenVsNow/tvn-053
 writing/al-hubbard-and-the-captain
 writing/anslinger-at-30
 writing/anslinger-morphine-end
+writing/april-19-1943
 writing/bergson-and-the-brain
 writing/billie-holiday-record
 writing/botanical-dimensions
@@ -442,13 +443,17 @@ writing/the-curious-molecule-and-the-country-it-broke
 writing/the-experiment-at-the-end-of-the-world
 writing/the-invisible-landscape
 writing/the-kykeon-recipe
+writing/the-man-in-the-garden-chair
 writing/the-man-who-spent-twelve-years-in-the-amazon
 writing/the-mushroom-growers-guide
 writing/the-parting-of-ways
 writing/the-perennial-philosopher-on-drugs
+writing/the-scream-at-the-start-of-everything
+writing/the-secret-that-lasted-two-thousand-years
 writing/the-seven-block-trip
 writing/the-stoned-ape-at-the-edge-of-history
 writing/the-structure-of-the-receptor
 writing/the-word-that-changed-everything
 writing/vietnam-study
 writing/wasson-life-magazine
+writing/what-the-record-actually-shows

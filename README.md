@@ -1,6 +1,6 @@
 # The Psychonaut Bookworm: Research & Learning Library (open edition)
 
-An independent research and learning library across psychedelic literature. The live site publishes 454 editorial objects drawn from a 1,664-record provenance ledger, each with its source visibility and rights-review state, plus a saved research queue and a correction form.
+An independent research and learning library across psychedelic literature. The live site publishes 459 editorial objects drawn from a 1,664-record provenance ledger, each with its source visibility and rights-review state, plus a saved research queue and a correction form.
 
 **Live site:** https://psychonaut-bookworm.vercel.app
 **Governance and the ledger:** https://psychonaut-bookworm.vercel.app/governance
@@ -10,9 +10,9 @@ It is drafts and study material, not peer-reviewed or licensed work. Every page 
 
 ## What this repository is
 
-This is the open edition of the project. It holds everything needed to rebuild the live site from scratch: the build, the tests, the governance page, and the 454 records that are released.
+This is the open edition of the project. It holds everything needed to rebuild the live site from scratch: the build, the tests, the governance page, and the 459 records that are released.
 
-It does not hold the other 1,210 records. They are withheld on the live site pending source and rights review (five object types are withheld in full pending excerpt-rights review: quote cards, documents of the week, character profiles, passage spotlights and the geography series). A public repository would publish exactly what the site holds back, so those records stay in the private source repository. Here they appear only as counts by reason in `provenance/withheld.json`, with no id, title, excerpt or source. The site you build from this repository is byte-identical to the live one.
+It does not hold the other 1,205 records. They are withheld on the live site pending source and rights review (five object types are withheld in full pending excerpt-rights review: quote cards, documents of the week, character profiles, passage spotlights and the geography series). A public repository would publish exactly what the site holds back, so those records stay in the private source repository. Here they appear only as counts by reason in `provenance/withheld.json`, with no id, title, excerpt or source. The site you build from this repository is byte-identical to the live one.
 
 ## How a record becomes public
 
@@ -47,11 +47,19 @@ Locally, item pages and `/governance` need their `.html` extension; Vercel's `cl
 |---|---|
 | `data/library.json` | The content of the released objects. |
 | `data/releases.json` | The release record for every public entry. |
+| `data/citation-links.json` | Verified links for citations, keyed by the citation text. |
 | `provenance/*.json` | The ledger records for released items, with their sources and rights basis. |
 | `provenance/withheld.json` | Counts of withheld records by reason. Nothing else about them. |
 | `build/build.py` | Writes `dist/`: the index, one page per released item, the public ledger, the sitemap and a 404 page. |
+| `build/verify_citation_links.py` | Re-checks every entry of `data/citation-links.json` against Crossref, the DOI resolver, PubMed and the web. Needs the network. |
 | `build/export_public.py` | Writes this open edition from the private source repository, then refuses to finish if any withheld id or text is in the output. |
 | `governance.html` | The rule that decides what is public, and how to ask for a correction. |
+
+## Citation links
+
+`data/citation-links.json` maps a citation, written exactly as it appears in `data/library.json`, to the place it can be checked: a DOI, a PubMed record, or a web address. The build turns each citation that has an entry into a link, on the index and on every item page. A citation with no entry prints as plain text. Nothing is guessed, and a citation marked "Source not found; under review" is never linked. A source string that joins several citations with a semicolon is split there, and each part is looked up on its own.
+
+Each entry records when it was verified (`verified`) and what was found (`matched`). A DOI is added only when Crossref and the DOI resolver both return the work and its first author, year and title match the citation. `python3 build/verify_citation_links.py` re-checks the whole file against those services (it needs the network, so it is not part of the test). `python3 build/test_release_gate.py` checks that every mapped citation occurs in the released data, that every DOI, PubMed and web address is well formed, that every link on a built page comes from the map, and that a build with an empty map differs only by the links.
 
 Every item page links to its posts, its sources page, its long-form draft, its place in the gallery index, the previous and next items, and related items from the same book or course module. Links run both ways, and the build refuses to finish if a count in the page shell disagrees with the data.
 

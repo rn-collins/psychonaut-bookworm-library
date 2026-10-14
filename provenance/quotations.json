@@ -51,9 +51,12 @@
    "status": "corrected",
    "match": "everything glistened and sparkled in a fresh light. The world was as if newly created.",
    "appearsIn": [
-    "notebookLM/nlm-002"
+    "notebookLM/nlm-002",
+    "pieces/april-19-1943"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
    "source": {
     "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
     "author": "Albert Hofmann",
@@ -71,7 +74,8 @@
    "appearsIn": [
     "pieces/hofmann-and-the-mushrooms",
     "pieces/wasson-life-magazine",
-    "readingLists/crl-003"
+    "readingLists/crl-003",
+    "pieces/the-secret-that-lasted-two-thousand-years"
    ],
    "ledgerRecords": [],
    "source": {
@@ -89,9 +93,12 @@
    "status": "verified",
    "match": "a Last Judgment which, after a long time and with considerable difficulty, I recognized as a chair",
    "appearsIn": [
-    "notebookLM/nlm-001"
+    "notebookLM/nlm-001",
+    "pieces/the-man-in-the-garden-chair"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
    "source": {
     "work": "The Doors of Perception (the mescalin experiment, a single unnumbered essay; the sentence comes just after the passage on the garden chair with the striped shadows, 'That chair - shall I ever forget it?', and the discussion of schizophrenia)",
     "author": "Aldous Huxley",
@@ -112,9 +119,12 @@
     "claimSorter/cs-014",
     "notebookLM/nlm-006",
     "courseModules/mod-05",
-    "courseModules/mod-07"
+    "courseModules/mod-07",
+    "pieces/the-scream-at-the-start-of-everything"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/the-scream-at-the-start-of-everything"
+   ],
    "source": {
     "work": "Legalize It All: How to win the war on drugs (Harper's Magazine, cover story / Report)",
     "author": "Dan Baum, quoting John Ehrlichman (Richard Nixon's domestic policy adviser) from a 1994 interview with Baum",
@@ -130,9 +140,12 @@
    "status": "corrected",
    "match": "to die with a better hope",
    "appearsIn": [
-    "notebookLM/nlm-003"
+    "notebookLM/nlm-003",
+    "pieces/the-secret-that-lasted-two-thousand-years"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/the-secret-that-lasted-two-thousand-years"
+   ],
    "source": {
     "work": "De Legibus (Laws), book II, section 14.36 (Marcus speaking, on the Athenian mysteries)",
     "author": "Cicero",
@@ -148,9 +161,12 @@
    "status": "corrected",
    "match": "he knows the end of life and he knows its god-sent beginning",
    "appearsIn": [
-    "notebookLM/nlm-003"
+    "notebookLM/nlm-003",
+    "pieces/the-secret-that-lasted-two-thousand-years"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/the-secret-that-lasted-two-thousand-years"
+   ],
    "source": {
     "work": "Greek Folk Religion (US title of Greek Popular Religion), chapter 'The Religion of Eleusis', quoting Pindar fr. 137 (Bergk numbering)",
     "author": "Martin P. Nilsson",
@@ -166,9 +182,12 @@
    "status": "corrected",
    "match": "New Billion-Dollar Crop",
    "appearsIn": [
-    "pieces/popular-mechanics-billion"
+    "pieces/popular-mechanics-billion",
+    "pieces/what-the-record-actually-shows"
    ],
-   "ledgerRecords": [],
+   "ledgerRecords": [
+    "writing/what-the-record-actually-shows"
+   ],
    "source": {
     "work": "'New Billion-Dollar Crop' (article; headline 'NEW BILLION-DOLLAR CROP', running head 'New Billion-Dollar Crop')",
     "author": "unsigned (Popular Mechanics staff)",
@@ -178,6 +197,408 @@
     "url": "https://books.google.com/books?id=e9sDAAAAMBAJ&pg=PA238"
    },
    "note": "The headline is 'New Billion-Dollar Crop'. The phrase 'the new billion-dollar crop' appears only in secondary literature. 'Billion' appears only in the headline; the article text says 'several hundred million dollars'."
+  },
+  {
+   "id": "q11",
+   "status": "verified",
+   "match": "uninterrupted stream of fantastic pictures, extraordinary shapes with intense, kaleidoscopic play of colors.",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 1, 'How LSD Originated', Hofmann's report to Professor Stoll on the April 16, 1943 episode (the page number in the 1983 Tarcher printing was not checked)",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "Draft said Hofmann 'would later describe' this; it comes from the report he sent to Stoll at the time. The sentence reads 'I perceived an uninterrupted stream...'; the match starts after 'an'."
+  },
+  {
+   "id": "q12",
+   "status": "verified",
+   "match": "dizziness, feeling of anxiety, visual distortions, symptoms of paralysis, desire to laugh.",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 1, laboratory journal entry for 4/19/43 at 17:00",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "The journal line reads 'Beginning dizziness, feeling of anxiety, ...'; the quotation starts after 'Beginning'. Entry is from the journal, not a paraphrase."
+  },
+  {
+   "id": "q13",
+   "status": "verified",
+   "match": "a malevolent, insidious witch with a colored mask.",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 1, 'How LSD Originated' ('She was no longer Mrs. R., but rather a malevolent, insidious witch with a colored mask.')",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "Draft placed the transformation on the bicycle ride; Hofmann places it at home, when the neighbor brought milk."
+  },
+  {
+   "id": "q14",
+   "status": "verified",
+   "match": "Was I dying?",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 1, 'How LSD Originated' (the passage 'Was I dying? Was this the transition?')",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "Three words, a rhetorical question in Hofmann's account."
+  },
+  {
+   "id": "q15",
+   "status": "corrected",
+   "match": "Everything in my field of vision wavered and was distorted as if seen in a curved mirror.",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 1, 'How LSD Originated', the passage on the bicycle ride home ('On the way home, my condition began to assume threatening forms. ...')",
+    "url": "https://www.psychedelic-library.org/child1.htm"
+   },
+   "note": "Pull quote. The draft's pull quote ('My field of vision swayed before me, and objects appeared distorted like images in curved mirrors') is not in this translation and its source was not found; replaced with the verified Ott wording."
+  },
+  {
+   "id": "q16",
+   "status": "verified",
+   "match": "Would LSD become a blessing for humanity, or a curse?",
+   "appearsIn": [
+    "pieces/april-19-1943"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "LSD: My Problem Child (German original: LSD - Mein Sorgenkind, Stuttgart: Klett-Cotta, 1979)",
+    "author": "Albert Hofmann",
+    "year": "1979 (German); English translation 1980",
+    "edition_or_translation": "Translated by Jonathan Ott (McGraw-Hill, New York, 1980); text read at The Psychedelic Library online edition of the English text",
+    "locator": "chapter 5, 'From Remedy to Inebriant' (section before 'Sandoz Stops LSD Distribution')",
+    "url": "https://www.psychedelic-library.org/child5.htm"
+   },
+   "note": "Hofmann's own question about his doubts in the early 1960s."
+  },
+  {
+   "id": "q17",
+   "status": "verified",
+   "match": "reducing valve",
+   "appearsIn": [
+    "pieces/april-19-1943",
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/april-19-1943"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley (quoting C. D. Broad, 1949, summarising Henri Bergson)",
+    "year": "1954",
+    "edition_or_translation": "Chatto & Windus (London) / Harper (New York), 1954",
+    "locator": "the 'Mind at Large' passage, where Huxley block-quotes Broad: Mind at Large 'has to be funnelled through the reducing valve of the brain and nervous system'. Page number not checked.",
+    "url": "https://en.wikipedia.org/wiki/Mind_at_Large (secondary quotation of the passage; the lending copy was not opened)"
+   },
+   "note": "Two-word term. The essay now credits the image to Broad's reading of Bergson as adopted by Huxley, and ties it to mescaline (1953 experiment), not LSD. Not in quotations.json; added."
+  },
+  {
+   "id": "q18",
+   "status": "verified",
+   "match": "what Adam had seen on the morning of his creation",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Study scene, a few paragraphs after 'I took my pill at eleven' (sentence: 'I was seeing what Adam had seen on the morning of his creation-the miracle, moment by moment, of naked existence.'); Harper page not verified",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Source prints a dash after 'creation'; the quotation stops before it."
+  },
+  {
+   "id": "q19",
+   "status": "verified",
+   "match": "the miracle, moment by moment, of naked existence",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Same sentence as the previous entry; Harper page not verified",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Continuation of the sentence after the dash. The draft's added sentence 'And then I became aware of a new fact' is not in the book and was removed."
+  },
+  {
+   "id": "q20",
+   "status": "verified",
+   "match": "Is-ness",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Study scene, the paragraph after the vase ('Istigkeit - wasn't that the word Meister Eckhart liked to use? \"Is-ness.\"')",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Huxley's own spelling and quotation marks. The draft's 'isness' was normalised."
+  },
+  {
+   "id": "q21",
+   "status": "verified",
+   "match": "the percept had swallowed up the concept",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Garden chair paragraph ('Today the percept had swallowed up the concept.')",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Lower-case 'the' begins the quoted clause."
+  },
+  {
+   "id": "q22",
+   "status": "verified",
+   "match": "on the brink of panic",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Same sentence as the Last Judgment fragment (p. 55 of the Harper paperback per q06)",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Source: 'I found myself all at once on the brink of panic.'"
+  },
+  {
+   "id": "q23",
+   "status": "verified",
+   "match": "Mind at Large",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Same passage as 'reducing valve'",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Huxley's capitalised term."
+  },
+  {
+   "id": "q24",
+   "status": "verified",
+   "match": "an experience of inestimable value to everyone and especially to the intellectual",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "Closing pages of the essay ('To be shaken out of the ruts of ordinary perception, ... this is an experience of inestimable value to everyone and especially to the intellectual.')",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "The draft placed this earlier in the session and quoted a long sentence; shortened to a phrase and relocated."
+  },
+  {
+   "id": "q25",
+   "status": "verified",
+   "match": "natural attitude",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "Edmund Husserl (concept, Ideas I, 1913)",
+    "author": "Edmund Husserl, as summarised in Stanford Encyclopedia of Philosophy",
+    "year": "1913 (Ideas I)",
+    "edition_or_translation": "Stanford Encyclopedia of Philosophy, 'Edmund Husserl'",
+    "locator": "Sections on the epoché and the natural attitude",
+    "url": "https://plato.stanford.edu/entries/husserl/"
+   },
+   "note": "A technical term, not a quotation from the Britannica article; the Britannica draft text was not read."
+  },
+  {
+   "id": "q26",
+   "status": "verified",
+   "match": "None too soon",
+   "appearsIn": [
+    "pieces/the-man-in-the-garden-chair"
+   ],
+   "ledgerRecords": [
+    "writing/the-man-in-the-garden-chair"
+   ],
+   "source": {
+    "work": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "edition_or_translation": "First edition London: Chatto & Windus, 1954 (New York: Harper, 1954). Wording checked in the MAPS-hosted text of the essay; printed page numbers not verified except where stated.",
+    "locator": "After the Tibetan Book of the Dead passage ('None too soon, I was steered away from the disquieting splendors of my garden chair.')",
+    "url": "https://maps.org/images/pdf/books/HuxleyA1954TheDoorsOfPerception.pdf"
+   },
+   "note": "Phrase opening the sentence."
+  },
+  {
+   "id": "q27",
+   "status": "corrected",
+   "match": "public enemy number one",
+   "appearsIn": [
+    "pieces/the-scream-at-the-start-of-everything"
+   ],
+   "ledgerRecords": [
+    "writing/the-scream-at-the-start-of-everything"
+   ],
+   "source": {
+    "work": "Remarks About an Intensified Program for Drug Abuse Prevention and Control (White House Briefing Room, 11:05 a.m.)",
+    "author": "Richard Nixon",
+    "year": "1971 (17 June)",
+    "edition_or_translation": "The American Presidency Project transcript (UC Santa Barbara)",
+    "locator": "opening remarks; sentence reads 'America's public enemy number one in the United States is drug abuse.'",
+    "url": "https://www.presidency.ucsb.edu/documents/remarks-about-intensified-program-for-drug-abuse-prevention-and-control"
+   },
+   "note": "The draft dated this to 1969. The phrase does not appear in the 14 July 1969 special message, which calls drug abuse 'a serious national threat'."
+  },
+  {
+   "id": "q28",
+   "status": "corrected",
+   "match": "If we cannot destroy the drug menace in America, then it will surely in time destroy us.",
+   "appearsIn": [
+    "pieces/the-scream-at-the-start-of-everything"
+   ],
+   "ledgerRecords": [
+    "writing/the-scream-at-the-start-of-everything"
+   ],
+   "source": {
+    "work": "Special Message to the Congress on Drug Abuse Prevention and Control",
+    "author": "Richard Nixon",
+    "year": "1971 (17 June)",
+    "edition_or_translation": "The American Presidency Project transcript (UC Santa Barbara); also in the Public Papers of the Presidents",
+    "locator": "the sentence is followed by 'I am not prepared to accept this alternative.'",
+    "url": "https://www.presidency.ucsb.edu/documents/special-message-the-congress-drug-abuse-prevention-and-control"
+   },
+   "note": "The draft's pull quote gave a different wording ('then it will destroy us') plus a second sentence ('I am convinced to the depths of my soul ...') and no attribution. The first sentence is Nixon's with 'surely in time' added back; the second sentence was not found in any source."
+  },
+  {
+   "id": "q29",
+   "status": "verified",
+   "match": "Strange Fruit",
+   "appearsIn": [
+    "pieces/the-scream-at-the-start-of-everything",
+    "pieces/what-the-record-actually-shows"
+   ],
+   "ledgerRecords": [
+    "writing/the-scream-at-the-start-of-everything"
+   ],
+   "source": {
+    "work": "'Strange Fruit' (song; poem by Abel Meeropol, sung by Billie Holiday from 1939)",
+    "author": "Abel Meeropol (lyrics); Billie Holiday (performer)",
+    "year": "1939",
+    "edition_or_translation": "title only, not a quotation",
+    "locator": "the song is named in Hari's Politico excerpt (Jan 2015)",
+    "url": "https://web.archive.org/web/20251023123940/https://www.politico.com/magazine/story/2015/01/drug-war-the-hunting-of-billie-holiday-114298/"
+   },
+   "note": "A song title in quotation marks, listed so every quoted string is accounted for."
+  },
+  {
+   "id": "q30",
+   "status": "verified",
+   "match": "several hundred million dollars",
+   "appearsIn": [
+    "pieces/what-the-record-actually-shows"
+   ],
+   "ledgerRecords": [
+    "writing/what-the-record-actually-shows"
+   ],
+   "source": {
+    "work": "'New Billion-Dollar Crop', opening paragraph",
+    "author": "unsigned (Popular Mechanics staff)",
+    "year": "1938",
+    "edition_or_translation": "Popular Mechanics, vol. 69, no. 2, February 1938",
+    "locator": "p. 238, first paragraph (opening words: American farmers are promised a new cash crop with an annual value of several hundred million dollars)",
+    "url": "https://archive.org/download/PopularMechanics1938/Popular_Mechanics_02_1938_djvu.txt"
+   },
+   "note": "Checked in OCR text, not the page image. OCR garbles 'value' in that line; the quoted phrase itself reads cleanly."
   }
  ]
 }

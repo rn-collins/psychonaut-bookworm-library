@@ -14,8 +14,14 @@ Checks the release gate against real builds. Standard library only.
 3. A record dated in the future, put on hold, or missing from releases.json is
    absent from the index, the item pages, the sitemap and the public ledger,
    and it appears on its release date.
+4. data/citation-links.json: every mapped citation occurs in the released data,
+   every DOI, PubMed and web address is well formed, nothing under review is
+   linked, every link on a built page comes from the map, and a citation with no
+   entry is printed as plain text (the pages are identical to a build with an
+   empty map once the links are taken out).
 """
 
+import datetime
 import html
 import json
 import os
@@ -34,12 +40,14 @@ def check(cond, msg):
         failures.append(msg)
 
 
-def build(out, releases=None, date=None):
+def build(out, releases=None, date=None, citation_links=None):
     cmd = [sys.executable, BUILD, "--out", out]
     if releases:
         cmd += ["--releases", releases]
     if date:
         cmd += ["--date", date]
+    if citation_links:
+        cmd += ["--citation-links", citation_links]
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
 
 
@@ -59,6 +67,72 @@ def ledger_records():
         if fn.endswith(".json") and fn not in ("manifest.json", "withheld.json", "quotations.json"):
             out += json.load(open(os.path.join(ROOT, "provenance", fn), encoding="utf-8"))["records"]
     return out
+
+
+DOI_RE = re.compile(r"^10\.\d{4,9}/[^\s\"<>]+$")
+PUBMED_RE = re.compile(r"^https://pubmed\.ncbi\.nlm\.nih\.gov/\d+/$")
+CITE_LINK_RE = re.compile(r'<a class="cite-link" href="([^"]*)" rel="noopener" data-cite="([^"]*)">(.*?)</a>', re.S)
+
+
+def check_citation_links(today, released_library, text_linked, text_plain, site):
+    path = os.path.join(ROOT, "data", "citation-links.json")
+    check(os.path.exists(path), "data/citation-links.json is missing")
+    if not os.path.exists(path):
+        return 0
+    links = site.load_citation_links(path)
+    units = site.citation_units(released_library)
+    today_d = datetime.date.fromisoformat(today)
+    for text, link in links.items():
+        short = text[:70]
+        check(text in units, f"citation link for a string that is not in the released data: {short!r}")
+        check("Source not found" not in text and "under review" not in text,
+              f"a citation marked as under review is linked: {short!r}")
+        url, kind = link["url"], link["kind"]
+        if kind == "doi":
+            doi = url[len("https://doi.org/"):] if url.startswith("https://doi.org/") else ""
+            check(bool(DOI_RE.match(doi)), f"not a valid DOI link for {short!r}: {url}")
+        elif kind == "pubmed":
+            check(bool(PUBMED_RE.match(url)), f"not a PubMed link for {short!r}: {url}")
+        else:
+            check(url.startswith("https://") and not url.startswith("https://doi.org/"),
+                  f"url-kind link for {short!r} must be an https address that is not a DOI: {url}")
+        check(datetime.date.fromisoformat(link["verified"]) <= today_d,
+              f"verified date is in the future for {short!r}")
+    # Pages: every link comes from the map, with the cited text as its label.
+    shown = set()
+    for name, page in text_linked.items():
+        if not name.endswith(".html"):
+            continue
+        for href, kind, label in CITE_LINK_RE.findall(page):
+            label = html.unescape(label)
+            link = links.get(label)
+            check(link is not None and link["url"] == html.unescape(href) and link["kind"] == kind,
+                  f"{name}: link on {label[:60]!r} is not in data/citation-links.json")
+            check("Source not found" not in label, f"{name}: a citation under review is linked")
+            shown.add(label)
+        check(page.count("<a class=\"cite-link\"") == len(CITE_LINK_RE.findall(page)),
+              f"{name}: a citation link has unexpected markup")
+    check(len(shown) > 0, "no citation link appears on any built page")
+    # An unmapped citation stays plain text, and a build with an empty map has no links at all.
+    for name, page in text_plain.items():
+        check('<a class="cite-link"' not in page, f"{name}: a link appears although the citation map is empty")
+        if name.endswith(".html") and name in text_linked:
+            stripped = CITE_LINK_RE.sub(lambda m: m.group(3), text_linked[name])
+            check(stripped == page, f"{name}: linking changed more than the citations")
+    saved = dict(site.CITATION_LINKS)
+    try:
+        site.CITATION_LINKS.clear()
+        site.CITATION_LINKS["Known, Journal (2001)"] = {"url": "https://doi.org/10.1/x", "kind": "doi",
+                                                        "verified": "2026-10-13"}
+        out = site.cite("Known, Journal (2001); Unknown, Journal (2002) [Source not found; under review]")
+        check(out.count("<a ") == 1 and "Unknown, Journal (2002) [Source not found; under review]" in out
+              and "</a>; Unknown" in out, f"cite() linked the wrong part: {out}")
+        check("<a " not in site.cite("Unknown, Journal (2002)"), "cite() linked a citation that is not in the map")
+        check(site.cite("A & B <c>") == "A &amp; B &lt;c&gt;", "cite() does not escape plain text")
+    finally:
+        site.CITATION_LINKS.clear()
+        site.CITATION_LINKS.update(saved)
+    return len(shown)
 
 
 def check_quotations(records, released):
@@ -210,13 +284,28 @@ def main():
                     check(v not in [r["recordId"] for r in ledger["records"]],
                           f"{v} on {date}: still in the public ledger")
 
+    # 4. citation links
+    sys.path.insert(0, os.path.join(ROOT, "build"))
+    import build as site
+    full_library = json.load(open(os.path.join(ROOT, "data", "library.json"), encoding="utf-8"))
+    released_library = site.gate(full_library, site.load_releases(os.path.join(ROOT, "data", "releases.json")),
+                                 datetime.date.fromisoformat(today))
+    with tempfile.TemporaryDirectory() as tmp:
+        empty = os.path.join(tmp, "empty-citation-links.json")
+        json.dump({"links": {}}, open(empty, "w"))
+        build(os.path.join(tmp, "linked"))
+        build(os.path.join(tmp, "plain"), citation_links=empty)
+        linked_n = check_citation_links(today, released_library, served_text(os.path.join(tmp, "linked")),
+                                        served_text(os.path.join(tmp, "plain")), site)
+
     if failures:
         print(f"FAIL: {len(failures)} problem(s)")
         for f in failures[:50]:
             print("  " + f)
         sys.exit(1)
     print(f"ok: {len(released)} released records checked as of {today}; "
-          f"future date, hold and missing entry all stay hidden")
+          f"future date, hold and missing entry all stay hidden; "
+          f"{linked_n} distinct citations are linked, the rest print as plain text")
 
 
 if __name__ == "__main__":

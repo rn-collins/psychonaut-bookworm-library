@@ -20,17 +20,16 @@
    "source": {
     "work": "Letter from Aldous Huxley to Humphry Osmond, 30 March 1956 (couplet in the postscript)",
     "author": "Aldous Huxley",
-    "year": "1956 (letter); first book printing 1969",
-    "edition_or_translation": "The Letters of Aldous Huxley, ed. Grover Smith (London: Chatto & Windus, 1969)",
-    "locator": "letter 744; editorial note p. 795",
-    "url": "https://archive.org/details/lettersofaldoush0000unse (Smith, lending library); https://archive.org/details/mokshawritingson00huxl (Moksha, lending library)"
+    "edition_or_translation": "Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond, ed. Bisbee, Carson Bisbee, Dyck, Farrell, Sexton and Spisak (McGill-Queen's University Press, 2018)",
+    "locator": "1956 section, p. 266; also The Letters of Aldous Huxley, ed. Grover Smith (1969), letter 744",
+    "url": "https://doi.org/10.1515/9780773556027"
    },
-   "note": "Printed as 'gramme'. The library earlier gave 'gram'. The couplet is Huxley's entry in the naming exchange with Osmond."
+   "note": "Read in the book itself: 'gramme'. Huxley's letter is from 740 N. Kings Rd, Los Angeles."
   },
   {
    "id": "q02",
-   "status": "verified",
-   "match": "To fathom Hell or soar angelic",
+   "status": "corrected",
+   "match": "To fathom Hell or go angelic",
    "appearsIn": [
     "pieces/the-word-that-changed-everything",
     "pieces/passage-moksha-naming",
@@ -43,14 +42,13 @@
     "writing/vocabulary-of-a-new-world"
    ],
    "source": {
-    "work": "Humphry Osmond's rhyming reply to Huxley's 1956 letter, quoted in the editor's note to letter 744",
-    "author": "Humphry Osmond (quoted by Grover Smith)",
-    "year": "1956 (reply); first book printing 1969",
-    "edition_or_translation": "The Letters of Aldous Huxley, ed. Grover Smith (London: Chatto & Windus, 1969)",
-    "locator": "note to letter 744, p. 795",
-    "url": "https://archive.org/details/lettersofaldoush0000unse (lending library)"
+    "work": "Letter from Humphry Osmond to Aldous Huxley, Box 1056, Weyburn, Sask., early April 1956",
+    "author": "Humphry Osmond",
+    "edition_or_translation": "Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond, ed. Bisbee, Carson Bisbee, Dyck, Farrell, Sexton and Spisak (McGill-Queen's University Press, 2018)",
+    "locator": "1956 section, pp. 266-67",
+    "url": "https://doi.org/10.1515/9780773556027"
    },
-   "note": "The reply is undated in every source consulted. Osmond's later recollections give other wordings."
+   "note": "The letter reads 'go angelic' and glosses 'Delos, to manifest'. The usual 'soar angelic' is the form in the editor's note to letter 744 in Smith's 1969 Letters of Aldous Huxley (p. 795). Osmond adds 'I like phanerothymes'."
   },
   {
    "id": "q03",
@@ -625,6 +623,63 @@
     "url": "https://www.nyas.org/ideas-insights/blog/the-origin-of-the-term-psychedelic/"
    },
    "note": "Seen through the Academy's blog post, which quotes Osmond; the paper itself was not opened."
+  },
+  {
+   "id": "q32",
+   "status": "verified",
+   "match": "the 57 Varieties of Psychotherapists",
+   "appearsIn": [
+    "pieces/vocabulary-of-a-new-world"
+   ],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
+   "source": {
+    "work": "Letter from Aldous Huxley to Humphry Osmond, Marlborough-Blenheim Hotel, Atlantic City, 11 May 1955",
+    "author": "Aldous Huxley",
+    "edition_or_translation": "Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond, ed. Bisbee, Carson Bisbee, Dyck, Farrell, Sexton and Spisak (McGill-Queen's University Press, 2018)",
+    "locator": "1955 section, pp. 180-81",
+    "url": "https://doi.org/10.1515/9780773556027"
+   },
+   "note": "The full sentence reads 'the mingled measure of the Electric Shock Boys, the Chlorpromaziners and the 57 Varieties of Psychotherapists.' Written during the American Psychiatric Association meeting."
+  },
+  {
+   "id": "q33",
+   "status": "verified",
+   "match": "too much of a mouthful",
+   "appearsIn": [
+    "pieces/vocabulary-of-a-new-world"
+   ],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
+   "source": {
+    "work": "Letter from Humphry Osmond to Aldous Huxley, 24 March 1956 (candidate names for the new term)",
+    "author": "Humphry Osmond",
+    "edition_or_translation": "Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond, ed. Bisbee, Carson Bisbee, Dyck, Farrell, Sexton and Spisak (McGill-Queen's University Press, 2018)",
+    "locator": "1956 section, p. 262; quoted in the Introduction, p. li",
+    "url": "https://doi.org/10.1515/9780773556027"
+   },
+   "note": "Euleutheropsychics, 'though accurate and euphonious is too much of a mouthful'."
+  },
+  {
+   "id": "q34",
+   "status": "verified",
+   "match": "the most promising",
+   "appearsIn": [
+    "pieces/vocabulary-of-a-new-world"
+   ],
+   "ledgerRecords": [
+    "writing/vocabulary-of-a-new-world"
+   ],
+   "source": {
+    "work": "Letter from Humphry Osmond to Aldous Huxley, 24 March 1956",
+    "author": "Humphry Osmond",
+    "edition_or_translation": "Psychedelic Prophets: The Letters of Aldous Huxley and Humphry Osmond, ed. Bisbee, Carson Bisbee, Dyck, Farrell, Sexton and Spisak (McGill-Queen's University Press, 2018)",
+    "locator": "1956 section, p. 262",
+    "url": "https://doi.org/10.1515/9780773556027"
+   },
+   "note": "'So far psychodelics-mind manifestors seems the most promising.'"
   }
  ]
 }
